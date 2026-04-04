@@ -1,9 +1,13 @@
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { homedir } from 'node:os';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, '..');
-const VAULT_DIR = join(PROJECT_ROOT, 'vault');
+const VAULT_DIR = join(
+  homedir(),
+  'Library/Mobile Documents/iCloud~md~obsidian/Documents/distillery-vault'
+);
 
 export function projectRoot() {
   return PROJECT_ROOT;

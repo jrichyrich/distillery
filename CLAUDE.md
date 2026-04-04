@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-`kb` (codename: **distillery**) is a Node.js CLI tool that manages LLM-compiled knowledge bases viewed in Obsidian. Raw sources (articles, PDFs, repos, images, YouTube, datasets) are ingested into `raw/`, compiled by an LLM into interconnected wiki articles in `articles/`, and queried with output to multiple formats. The Obsidian vault lives at `<project-root>/vault/`.
+`kb` (codename: **distillery**) is a Node.js CLI tool that manages LLM-compiled knowledge bases viewed in Obsidian. Raw sources (articles, PDFs, repos, images, YouTube, datasets) are ingested into `raw/`, compiled by an LLM into interconnected wiki articles in `articles/`, and queried with output to multiple formats. The Obsidian vault lives in iCloud at `~/Library/Mobile Documents/iCloud~md~obsidian/Documents/distillery-vault/`, synced automatically to iOS via Obsidian's iCloud sync. The vault is NOT in this repo — only the CLI tool code lives here.
 
 ## Commands
 
@@ -33,7 +33,7 @@ kb query my-topic "What are the key concepts?"
 ES modules throughout (`"type": "module"` in package.json). Node v20+ required. `pdf-parse` is a CJS package — imported via `createRequire` in `src/ingestors/pdf.js`.
 
 ### Path Convention
-All vault paths are derived from `src/paths.js`, which resolves relative to the project root (wherever the repo is cloned). Every command resolves topic paths through `topicDir(topic)`, `rawDir(topic)`, etc. Never construct vault paths manually.
+All vault paths are derived from `src/paths.js`, which points to the iCloud Obsidian vault at `~/Library/Mobile Documents/iCloud~md~obsidian/Documents/distillery-vault/`. Every command resolves topic paths through `topicDir(topic)`, `rawDir(topic)`, etc. Never construct vault paths manually.
 
 ### Command Pattern
 Each command in `src/commands/` exports a `make*Command()` factory that returns a Commander `Command` instance. `src/cli.js` imports all factories and registers them. Commands that need LLM access follow this pattern: load config → create `ProviderRegistry` → call `registry.getForRole('compile'|'query'|'lint')`.
