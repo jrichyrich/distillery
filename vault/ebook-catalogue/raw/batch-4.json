@@ -1,0 +1,576 @@
+[
+  {
+    "title": "Outlive",
+    "author": "Peter Attia MD",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Attia MD, Peter/Outlive/Outlive - Peter Attia MD.pdf",
+    "preview": "\n\nThe information  and  advice  presented  in  this  book  are  not  meant  to  substitute\nfor the  advice  of  your  family\u2019 s  physician  or  other  trained  healthcare\nprofessionals . Y ou  are  advised  to  consult  with  healthcare  professionals  with\nregard  to  all  matters  pertaining  to  you  and  your  family\u2019 s  health  and  well-being .\nCopyright  \u00a9 2023 by  Peter  Attia\nAll rights  reserved .\nPublished  in  the  United  States  by  Harmony  Books , an  imprint  of  Random\nHouse , a  division  of  Penguin  Random  House  LLC , New  Y ork .\nHarmonyBooks . com  | RandomHouseBooks . com\nH ARMONY  B OOKS  is a registered  trademark , and  the  Circle  colophon  is  a\ntrademark  of  Penguin  Random  House  LLC .\nC ENTENARIAN  D ECA THLON  is a trademark  of  P A  IP , LLC .\nM ARGINAL  D ECADE  is a trademark  of  P A  IP , LLC .\nLibrary  of  Congress  Cataloging-in-Publication  Data  has  been  applied  for .\nISBN  9780593236598\nEbook  ISBN  9780593236604\nBook  design  by  Andrea  Lau\nCover  design  by  Rodrigo  Corral  Studio\nep_ prh _6.0_144561437_ c 0_ r 6\n",
+    "page_count": 619
+  },
+  {
+    "title": "Path-of-the-Renegade",
+    "author": "Unknown",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Path-of-the-Renegade.pdf",
+    "preview": "\n\n\n",
+    "page_count": 281
+  },
+  {
+    "title": "Patton_NavCyberPath_ARC",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Patton_NavCyberPath_ARC.pdf",
+    "preview": "CYBER\nSECURITY\nCAREER\nPATHNAVIGATING THE\nHELEN E. PATTON\nNavigating the \nCybersecurity  \nCareer Path\nPatton9781119833420_ffirs01.indd   1Patton9781119833420_ffirs01.indd   1 07-10-2021   15:21:0807-10-2021   15:21:08\nHelen Patton, \"Navigating the Cybersecurity Career Path\". Copyright \u00a9 2022 by John Wiley & Sons, Inc. \nAll rights reserved. UNEDITED DRAFT -- DO NOT REDISTRIBUTE.\nPatton9781119833420_ffirs01.indd   2Patton9781119833420_ffirs01.indd   2 07-10-2021   15:21:0807-10-2021   15:21:08\nHelen Patton, \"Navigating the Cybersecurity Career Path\". Copyright \u00a9 2022 by John Wiley & Sons, Inc. \nAll rights reserved. UNEDITED DRAFT -- DO NOT REDISTRIBUTE.\n",
+    "page_count": 317
+  },
+  {
+    "title": "pci_dss_v2",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/pci_dss_v2.pdf",
+    "preview": " \n   \nPayment Card Industry (PCI)  \nData Security Standard    \n \nRequirements and Security Assessment Procedures  \nVersion 2.0  \nOctober 2010  \n \n \n \n \n \n\n \n \nPCI DSS Requirements and Security Assessment Procedures, Version 2.0  October 2010  \nCopyright 2010 PCI Security Standards Council LLC  Page 2 \nDocument Changes  \nDate  Version  Description  Pages  \nOctober \n2008  1.2 To introduce PCI DSS v1.2 as \u2015PCI DSS Requirements and Security Assessment Procedures,\u2016 eliminating \nredundancy between documents, and make both general and specific changes from  PCI DSS Security \nAudit Procedures v1.1. For complete informat ion, see PCI Data Security Standard Summary of Changes \nfrom PCI DSS Version 1.1 to 1.2.   \nJuly \n2009  1.2.1  Add sentence that was incorrectly deleted between PCI DSS v1.1 and v1.2.  5 \nCorrect \u2015then\u2016 to \u2015than\u2016 in testing procedures 6.3.7.a and 6.3.7.b.  32 \nRemove grayed -out marking for \u2015in place\u2016 and \u2015not in place\u2016 columns in testing procedure 6.5.b.  33 \nFor Compensating Controls Worksheet \u2013 Completed Example, correct wording at top of page to say \u2015Use \nthis worksheet to define compensating controls for any requirement noted as \u2017in place\u2018 via compensating \ncontrols.\u2016  64 \nOctober \n2010  2.0 Update and implement changes from v1.2.1. For details, please see \u2015 PCI DSS - Summary of Changes from \nPCI DSS Version 1.2.1 to 2.0.\u2016   \n \n \n \nPCI DSS Requirements and Security Assessment Procedures, Version 2.0  October 2010  \nCopyright 2010 PCI Security Standards Council LLC  Page 3 \nTable of Contents  \nDocument Changes  ................................ ................................ ................................ ................................ ................................ ...........  2 \nIntroduction and PCI Data Security Standard Overview  ................................ ................................ ................................ .................  5 \nPCI DSS Applicability Information  ................................ ...........................",
+    "page_count": 75
+  },
+  {
+    "title": "Penetration Class Power Points",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Penetration Class Power Points.pdf",
+    "preview": "IT515R \u2013 Penetration Testing \n& Ethical Hacking  \nDale C. Rowe Ph.D.  \nIT515R \u2013 Penetration Testing \n& Ethical Hacking \nSpring 2011 \n \n1: Course Introduction \n \nDale Rowe (dale_rowe@byu.edu), 265C CTB  \nCraig Treasure (craigktreasure@gmail.com ), TA \n \n \nOffice Hours: \nTuesday and Thursday 10:00- 12:00 \n \n 10/18/2011 \u00a9 2011 Dale C. Rowe Ph.D.  2 \nToday\u2019s Agenda \n1.Introductions  \n2.Prerequisites  \n3.Course Outline  \n4.Courseware \n5.Teaching Methods  \n6.Expectations  \n7.Grading  \n8.Resources  \n9.Labs  \n10.Today\u2019s Class & Lab \n10/18/2011 \u00a9 2011 Dale C. Rowe Ph.D.  3 \n",
+    "page_count": 395
+  },
+  {
+    "title": "Playing to win",
+    "author": "How Strategy Works",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Playing to win - How Strategy Works.pdf",
+    "preview": "\nPraise for \nPlaying to Win\n\u201cReading \nPlaying to Win\n is like having prime seats at the Super Bowl of\nstrategy. You\u2019ll learn the strategies consumer goods powerhouse Procter &\nGamble uses to get its innovative products into millions of homes\u2014plus\ntested methods for winning your own marketplace contests. If you\u2019re a\nmarketer or a leader, you need to read this book.\u201d\n\u2014Daniel H. Pink, author, \nDrive\n and \nA Whole New Mind\n\u201cThis is the best book on strategy I have ever read. Lafley and Martin get to\nthe heart of what\u2019s important: how to make choices in order to control events\nrather than allowing events to control your choices. Everyone wants to win;\nthis book sets down with calm authority the steps you must take to turn\naspiration into reality.\u201d\n\u2014Sir Terry Leahy, former CEO, Tesco\n\u201cLafley and Martin teach us how to develop and then how to deploy strategy.\nTheir recommendations apply at every level\u2014corporation, business units,\nproducts, and teams. This is a great book.\u201d\n\u2014Clayton M. Christensen, Kim B. Clark Professor of Business\nAdministration, Harvard Business School; author, \nThe Innovator\u2019s\nDilemma\n\u201cMost authors conduct research before they write a book. Lafley and Martin\nwent out and did something. They used their simple, subtle framework\u2014\nWhere will we play? How will we win?\u2014to double the value of one of the\nworld\u2019s greatest businesses. And now they\u2019re showing you how to do the\nsame. Read this book\u2026 before your competitors find it.\u201d\n\u2014Chip Heath, coauthor, \nDecisive: How to Make Better Choices in\nLife and Work\n\u201c\nPlaying to Win\n is a rare combination of depth of thinking and ease of use. It\nclearly explains what business strategy is and isn\u2019t, and how to develop it.\nLafley and Martin distill their hard-won experiences and offer insights,\npractical hands-on tools, and tips that will inspire and allow you to think\nstrategically in new ways about your own business.\u201d\n\u2014J\u00f8rgen Vig Knudstorp, CEO, Lego Group\n\u201cA great CEO and a renowned educator join forces to create a must-",
+    "page_count": 269
+  },
+  {
+    "title": "Plyometric-Box",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Plyometric-Box.pdf",
+    "preview": "\t\tMATERIALS:\t\t\t\t\t\tTOOLS:\t(1)\t4\tFt.\tx\t8\tFt.\tSheet\tof\t\u00be-inch\tPlywood\t\tTape\tMeasure\t2-inch\tWood\tScrews\t\t\t\t\tPencil\tWood\tGlue\t\t\t\t\t\tCarpenter\u2019s\tSquare\t\t\t\t\tDrill/Driver\tBandsaw\tor\tJigsaw\t\t\t\t\t\t\t\t\tClamps\t\t\t\t\tOrbital\tSander\tSafety\tGlasses\t\t\t\tHearing\tProtection\t\t\t\t\t\tDust\tMask\t\t\t\n\nDIY 3-in-1 Plyometric Box \u2013 Copyright \u00a9 2018 Jen Woodhouse | The House of Wood  \n 2 \nwww.JenWoodhouse.com CUT\tLIST:\t(2)\t\u00be-inch\tplywood\t@\t28\tinches\tx\t24\tinches\t(front/back)\t(2)\t\u00be-inch\tplywood\t@\t28\tinches\tx\t20\tinches\t(top/bottom)\t(2)\t\u00be-inch\tplywood\t@\t24\tinches\tx\t20\tinches\t(sides)\t(1)\t\u00be-inch\tplywood\t@\t22\t\u00bd\tinches\tx\t18\t\u00bd\tinches\t(center\tsupport)\t\t\n\t\t\n\nDIY 3-in-1 Plyometric Box \u2013 Copyright \u00a9 2018 Jen Woodhouse | The House of Wood  \n 3 \nwww.JenWoodhouse.com \t\t\n\n",
+    "page_count": 10
+  },
+  {
+    "title": "Positive Imaging",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Positive Imaging.pdf",
+    "preview": "\n\nBy Norman Vincent Peale\nA Guide to Confident Living\nThe New Art of Living\nThe Positive Principle Today\nSin, Sex and Self-Control\nStay Alive All Your Life\nEnthusiasm Makes the Difference\nThe Tough-Minded Optimist\nFaith is the Answer (with Smiley Blanton)\nPositive Imaging\nInspiring Messages for Daily Living\nThe Amazing Results of Positive Thinking\nTreasury of Joy and Enthusiasm\nThe True Joy of Positive Living\nHave a Great Day\nWhy Some Positive Thinkers Get Powerful Results\nPower of the Plus Factor\nThe Power of Ethical Management\n(with Kenneth Blanchard)\nThe Power of Positive Living\nThe Power of Positive Thinking\nYou Can if You Think You Can\n",
+    "page_count": 183
+  },
+  {
+    "title": "Potatoes Not Prozac_ A Natural Seven-Step Plan to_ Control Your Craving",
+    "author": "Kathleen DesMaisons",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/DesMaisons, Kathleen/Potatoes Not Prozac_ A Natural Seven-Step Plan to_ Control Your Craving/Potatoes Not Prozac_ A Natural Seven-Step Plan to_ Control Your Craving - Kathleen DesMaisons.pdf",
+    "preview": "\n\n\n",
+    "page_count": 264
+  },
+  {
+    "title": "Power of Habit_ Why We Do What We Do in Life and Business, The",
+    "author": "Duhigg, Charles",
+    "formats": [
+      "epub",
+      "mobi",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Duhigg, Charles/Power of Habit_ Why We Do What We Do in Life and Business, The/Power of Habit_ Why We Do What We Do in Life and Business, The - Charles Duhigg.pdf",
+    "preview": "\n\nThe Power of Habit  is a work of non\u0000ction. Nonetheless, some names and personal\ncharacteristics of individuals or events have been changed in order to disguise identities.\nAny resulting resemblance to persons living or dead is entirely coincidental and\nunintentional.\nCopyright \u00a9 2012 by Charles Duhigg\nAll rights reserved.\nPublished in the United States by Random House, an imprint of  \nThe Random House Publishing Group, a division of Random House, Inc., New York.\nRANDOM  HOUSE  and colophon are registered trademarks of Random House, Inc.\nLibrary of Congress Cataloging-in-Publication Data  \nDuhigg, Charles.  \nThe power of habit : why we do what we do in life and business / by Charles Duhigg.  \np.\u00a0\u00a0\u00a0cm.  \nIncludes bibliographical references and index.  \neISBN: 978-0-679-60385-6  \n1.\u2002Habit.\u00a0\u00a0\u00a02.\u2002Habit\u2014Social aspects.\u00a0\u00a0\u00a03.\u2002Change (Psychology)\u00a0\u00a0\u00a0I.\u2002Title.  \nBF335.D76 2012  \n158.1\u2014dc23\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a02011029545\nIllustration on this page  by Andrew Pole  \nAll other illustrations by Anton Ioukhnovets\nwww.atrandom.com\nv3.1_r1\n",
+    "page_count": 389
+  },
+  {
+    "title": "practical_reverse_engineering_x86_x64_arm_windows_kernel_reversing_tools_and_obfuscation",
+    "author": "Unknown",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Info Sec/practical_reverse_engineering_x86_x64_arm_windows_kernel_reversing_tools_and_obfuscation.pdf",
+    "preview": "\nTable of Contents\nChapter 1: x86 and x64\nRegister Set and Data T ypes\nInstruction Set\nExercise\nExercises\nSystem Mechanism\nWalk-Through\nExercises\nx64\nExercises\nChapter 2: ARM\nBasic Features\nData T ypes and Registers\nSystem-Level Controls and Settings\nIntroduction to the Instruction Set\nLoading and Storing Data\nFunctions and Function Invocation\nArithmetic Operations\nBranching and Conditional Execution\nMiscellaneous\nWalk-Through\nNext Steps\nExercises\nChapter 3: The Windows Kernel\nWindows Fundamentals\nLists\nAsynchronous and Ad-Hoc Execution\nI/O Request Packets\nStructure of a Driver\nWalk-Throughs\nNext Steps\nExercises\nChapter 4: Debugging and Automation\nThe Debugging T ools and Basic Commands\nScripting with the Debugging T ools\nUsing the SDK\nUseful Extensions, T ools, and Resources\nChapter 5: Obfuscation\nA Survey of Obfuscation T echniques\nA Survey of Deobfuscation T echniques\nCase Study\nExercises\nNotes\nAppendix: Sample Names and Corresponding SHA1\nHashes\nIntroduction\n",
+    "page_count": 429
+  },
+  {
+    "title": "Practice of System and Network Administration, The (2nd Edition)",
+    "author": "Limoncelli, Thomas A. & Christina J. Hogan & Strata R. Chalup",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Limoncelli, Thomas A_/Practice of System and Network Administration, The (2nd Edition)/Practice of System and Network Administration, The (2nd Edition) - Limoncelli, Thomas A. & Christina J. Hogan & Strata R. Chalup.pdf",
+    "preview": "\n\u00a0\nThe Practice of System and\nNetwork Administration, Second\nEdition\n\u00a0\nThomas A. Limoncelli  \nChristina J. Hogan  \nStrata R. Chalup\n\u00a0\nUpper Saddle River , NJ \u2022 Boston \u2022 Indianapolis \u2022 San Francisco  \nNew Y ork \u2022 T oronto \u2022 Montreal \u2022 London \u2022 Munich \u2022 Paris \u2022 Madrid  \nCapetown \u2022 Sydney \u2022 T okyo \u2022 Singapore \u2022 Mexico City\n\u00a0\n",
+    "page_count": 1339
+  },
+  {
+    "title": "Praying Life_ Connecting with God in a Distracting World, A",
+    "author": "Paul E. Miller",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Miller, Paul E_/Praying Life_ Connecting with God in a Distracting World, A/Praying Life_ Connecting with God in a Distracting World, A - Paul E. Miller.pdf",
+    "preview": "\n\n\n",
+    "page_count": 381
+  },
+  {
+    "title": "Project Zero Trust",
+    "author": "George Finney",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Finney, George/Project Zero Trust/Project Zero Trust - George Finney.pdf",
+    "preview": "\nTable of Contents\nCover\nTitle Page\nAbout the Author\nAcknowledgments\nForeword\nIntroduction\nChapter 1: The Case for Zero Trust\nKey Takeaways\nChapter 2: Zero Trust Is a Strategy\nKey Takeaways\nChapter 3: Trust Is a Vulnerability\nKey Takeaways\nChapter 4: The Crown Jewels\nKey Takeaways\nChapter 5: The Identity Cornerstone\nKey Takeaways\nChapter 6: Zero Trust DevOps\nKey Takeaways\nChapter 7: Zero Trust SOC\nKey Takeaways\nChapter 8: Cloudy with a Chance of Trust\nKey Takeaways\nChapter 9: A Sustainable Culture\nKey Takeaways\nChapter 10: The Tabletop Exercise\nKey Takeaways\nChapter 11: Every Step Matters\nKey Takeaways\nAppendix A: Zero Trust Design Principles and Methodology\nThe Four Zero Trust Design Principles\nThe Five-Step Zero Trust Design Methodology\nAppendix B: Zero Trust Maturity Model\nAppendix C: Sample Zero Trust Master Scenario Events List\nAppendix D: For Further Reading\nStandards, Frameworks, and Other Resources\nCase Studies\nGoogle BeyondCorp Papers\nBooks\nHardening Guides\nGlossary\nIndex\nCopyright\nDedication\nEnd User License Agreement\n",
+    "page_count": 260
+  },
+  {
+    "title": "Propaganda Wars_ How the Global Elite Control What You See, Think, and Feel",
+    "author": "Glenn Beck & Justin Haskins",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Beck, Glenn & Haskins, Justin/Propaganda Wars_ How the Global Elite Control What You See, Think, and Feel/Propaganda Wars_ How the Global Elite Control What You See, Think, and Feel - Glenn Beck & Justin Haskins.pdf",
+    "preview": "\n\nPropaganda Wars: How the Global Elite Control What You See, \ue04cink, and Feel\nCopyright \u00a9 2024 Mercury Radio Arts, Inc.\nAll rights reserved. No part of this publication may be reproduced, stored in a retrieval system,\nor transmitted in any form by any means, electronic, mechanical, photocopy, recording, or\notherwise, without the prior permission of the publisher, except as provided by USA copyright\nlaw.\nNo patent liability is assumed with respect to the use of the information contained herein.\nAlthough every precaution has been taken in the preparation of this book, the publisher and\nauthor assume no responsibility for errors or omissions. Neither is any liability assumed for\ndamages resulting from the use of the information contained herein.\nScripture quotations are taken from \ue053e Holy Bible, English Standard Version. ESV\u00ae \nText Edition: 2016. Copyright \u00a9 2001 by Crossway Bibles, a publishing ministry of Good\nNews Publishers.\nPublished by Mercury Ink and Forefront Books, Nashville, Tennessee. \nMercury Ink is a trademark of Mercury Radio Arts, Inc. \nDistributed by Simon & Schuster.\nLibrary of Congress Control Number: XXXXXXXXXX\nPrint ISBN: 978-1-63763-389-2\nCover Design by Alexander Somoskey \nInterior Design by Bill Kersey, Kersey Graphics\nPrinted in the United States of America\n",
+    "page_count": 229
+  },
+  {
+    "title": "Proprioception-MakingSenseofBarefootRunning",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Proprioception-MakingSenseofBarefootRunning.pdf",
+    "preview": "PROPRIOCEPTION\nMaking Sense Of Barefoot Running\nby Lee Saxby\nForeword\nBy Professor Dan Lieberman  (Harvard University)\nBy Chris McDougall (Author of Born to Run)\nChapter 1 p5\nWe Have Forgotten How To Run\nOur evolutionary success as humans is directly related to our \nability to run. But that natural talent isn\u2019t foolproof; 50 years of \npadded running shoes and poor posture mean about 80% of  \nrunners suffer from injury every year.\nChapter 2 p6\nThe Human Foot Is An Evolutionary Masterpiece\nWith its complex system of springs, levers and nerve endings,  \nthe foot is one of the body\u2019s major sensory organs. Humans are  \nnaturally good at walking, running and sprinting. Jogging, or, \nslow, sticky heel-striking in padded shoes is not a natural  \nmovement and is responsible for countless runners\u2019 injuries.\nChapter 3 p11\nProprioception: Our Sixth Sense\nProprioception is the sense of our body\u2019s position and orientation. \nWe use this sense to move and the more feedback, the better the \nmovement. About 70% of that feedback comes via pressure \nreceptors, mostly located in the feet. The human foot needs  \nprotection, but thick, shock-absorbing soles greatly reduce  \nsensory feedback and therefore limit the quality of movement.\nChapter 4 p13\nFootwear That Makes Sense\nTo run barefoot is your default setting, but to do this in today\u2019s \nworld, you need a shoe that gives a balanced, unrestricted and \nprotected experience, while also allowing maximum sensory  \nfeedback between your feet and your brain - from sole to soul.\nChapter 5 p15\nReawaken Your Innate Barefoot Running Skill\nYou have the hardware, but you\u2019ve forgotten the software.  \nRe-building your barefoot running technique will take time, \nparticularly if you\u2019ve been wearing padded footwear all your life. \nBut it\u2019s an exciting, joyful and probably life-changing journey. \nWe\u2019d like to help take you through it, step-by-step. Literally.PROPRIOCEPTION\nMaking Sense Of \nBarefoot Running\nMotor milestones\nWalk      Run      Sprint\nJoggi",
+    "page_count": 32
+  },
+  {
+    "title": "Prospero Burns (The Horus Heresy Book 15)",
+    "author": "Dan Abnett",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Abnett, Dan/Prospero Burns (The Horus Heresy Book 15)/Prospero Burns (The Horus Heresy Book 15) - Dan Abnett.pdf",
+    "preview": "\nTable of Contents\nCover\nTitle Page\nThe Horus Heresy\nDramatis Personae\nPart One \u2013 The Upplander\nOne\nTwo\nThree\nFour\nPart T wo \u2013 W olf T ales\nFive\nSix\nSeven\nEight\nNine\nTen\nEleven\nTwelve\nPart Three \u2013 Account\nThirteen\nFourteen\nFifteen\nAfterword\nAcknowledgements\nAbout the Author\nLegal\n",
+    "page_count": 359
+  },
+  {
+    "title": "prospero-burns",
+    "author": "Unknown",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/prospero-burns.pdf",
+    "preview": "\n\n\n",
+    "page_count": 355
+  },
+  {
+    "title": "Psychologically Unemployable",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Psychologically Unemployable.pdf",
+    "preview": "FOREWORD \nby Jerry Clark \nYes, I know what you are thinking ... Psychologically Unemployable: \nLife on Your Terms must be a book for people that don't have the basic \ntalent necessary to get and keep a decent job ... No, not at all! Instead, the \nbook you now hold in your hands is specifically designed for those who \nrealize that the talent they possess is worth a lot more than a J.O.B. could \never pay them. \nBased on statistics from the 2004 U.S. Census Bureau report provided \nby the United States government, approximately 87 percent of Americans \nwill retire in poverty, achieving less than $11 ,418 per year. According to \nthese statistics, less than 6 percent of people aged sixty-five years or older \nhave annual retirement incomes that exceed $50,000. We're not talking \nabout some third world country in these reports-we're talking about the \nUnited States of America. \nThis is where the author of this book, my good friend Jeffery Combs, \ncomes in. Jeff believes that entrepreneurship and free enterprise provide \nthe vehicle for people to create the financial freedom they seek to live \nlife on their terms. He has personally mentored thousands of people just \nlike you who have found that they are \"psychologically unemployable\"\u00ad\nthey have discovered that the confines of a traditional job have not served \nthem. These renegades who have the courage to challenge the system and \nbuild their own enterprises are the entrepreneurs of our society who have \novercome their challenges and dysfunctions to become successful. \nSpeaking of dysfunction, Jeffery Combs believes that the greater the \ndysfunction has been in your life, the greater your chances of breaking out \nof the traditional \"rat race\" system and becoming massively successful. As \na matter of fact, dysfunctions seem to be one of the hallmarks of the world's \nFOREWORD \nmost successful Psychologically Unemployable multimillionaires. \nThat's right-Bill Gates, Oprah Winfrey, Steven Spielberg, Michael \nDell, Steven Jobs, M",
+    "page_count": 210
+  },
+  {
+    "title": "Psychologically Uneployable",
+    "author": "Jeffery Combs",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Combs, Jeffery/Psychologically Uneployable/Psychologically Uneployable - Jeffery Combs.pdf",
+    "preview": "\nFOREWORD\nby Jerry Clark\nYes, I know what you are thinking ... Psychologically Unemployable:  Life\non Your T erms must be a book for people that don't have the basic talent\nnecessary to get and keep a decent job ... No, not at all! Instead, the book\nyou now hold in your hands is speci\ufb01cally designed for those who realize\nthat the talent they possess is worth a lot more than a J.O.B. could ever pay\nthem.\nBased on statistics from the 2004 U. S. Census Bureau report provided by\nthe United States government, approximately 87 percent of Americans will\nretire in poverty , achieving less than $1 1,418 per year . According to these\nstatistics, less than 6 percent of people aged sixty-\ufb01ve years or older have\nannual retirement incomes that exceed $50,000. W e're not talking about\nsome third world country in these reports-we're talking about the\nUnited States of America.\nThis is where the author of this book, my good friend Jef fery Combs, comes\nin. Jef f believes that entrepreneurship and free enterprise provide the\nvehicle for people to create the \ufb01nancial freedom they seek to live life on\ntheir terms. He has personally mentored thousands of people just like you\nwho have found that they are \"psychologically unemployable\"-\nthey have discovered that the con\ufb01nes of a traditional job have not served\nthem. These renegades who have the courage to challenge the system and\nbuild their own enterprises are the entrepreneurs of our society who have\novercome their challenges and dysfunctions to become successfu1.\nSpeaking of dysfunction, Jef fery Combs believes that the greater the\ndysfunction has been in your life, the greater your chances of breaking out\nof the traditional \"rat race\" system and becoming massively successfu1. As\na matter of fact, dysfunctions seem to be one of the hallmarks ofthe world's\nFOREWORD\nmost successful Psychologically Unemployable multimillionaires.\nThat's right-Bill\nGates, Oprah W infrey , Steven Spielber g, Michael Dell, Steven Jobs, Martha\nStewart, Richard",
+    "page_count": 219
+  },
+  {
+    "title": "Psychologically Uneployable Nitro PDF",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Psychologically Uneployable Nitro PDF.pdf",
+    "preview": "FOREWORD\nbyJerryClark\nYes,Iknowwhatyouarethinking...Psychologically Unemployable:\nLifeonYourTermsmustbeabookforpeoplethatdon'thavethebasic\ntalentnecessary togetandkeepadecentjob...No,notatall!Instead,the\nbookyounowholdinyourhandsisspecifically designed forthosewho\nrealizethatthetalenttheypossessisworthalotmorethanaJ.O.B.could\neverpaythem.\nBasedonstatistics fromthe2004U.S.CensusBureaureportprovided\nbytheUnitedStatesgovernment, approximately 87percentofAmericans\nwillretireinpoverty, achieving lessthan$11,418 peryear.According to\nthesestatistics, lessthan6percentofpeopleagedsixty-five yearsorolder\nhaveannualretirement incomes thatexceed$50,000. We'renottalking\naboutsomethirdworldcountryinthesereports-we're talkingaboutthe\nUnitedStatesofAmerica.\nThisiswheretheauthorofthisbook,mygoodfriendJefferyCombs,\ncomesin.Jeffbelieves thatentrepreneurship andfreeenterprise provide\nthevehicleforpeopletocreatethefinancial freedom theyseektolive\nlifeontheirterms.Hehaspersonally mentored thousands ofpeoplejust\nlikeyouwhohavefoundthattheyare\"psychologically unemployable\"-\ntheyhavediscovered thattheconfines ofatraditional jobhavenotserved\nthem.Theserenegades whohavethecouragetochallenge thesystemand\nbuildtheirownenterprises aretheentrepreneurs ofoursocietywhohave\novercome theirchallenges anddysfunctions tobecome successfu1.\nSpeaking ofdysfunction, JefferyCombsbelieves thatthegreaterthe\ndysfunction hasbeeninyourlife,thegreateryourchancesofbreaking out\nofthetraditional \"ratrace\"systemandbecoming massively successfu1. As\namatteroffact,dysfunctions seemtobeoneofthehallmarks oftheworld's\nFOREWORD\nmostsuccessful Psychologically Unemployable multimillionaires.\nThat'sright-Bill Gates,OprahWinfrey, StevenSpielberg, Michael\nDell,StevenJobs,MarthaStewart, Richard Branson, andmanymore\nareallexamples ofpeoplewhoareoroncewerePsychologically\nUnemployable.\nJeffalsofallsintothiscategory. IbelievethecatalystforJefftocreate\naseven-figure incomethroughhisownseminar company thatperpetuates\nyearafteryearaftery",
+    "page_count": 210
+  },
+  {
+    "title": "Psychology of Money, The",
+    "author": "Morgan Housel",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Housel, Morgan/Psychology of Money, The/Psychology of Money, The - Morgan Housel.pdf",
+    "preview": "\n\nFor\nMy parents, who teach me.\nGretchen, who guides me.\nMiles and Reese, who inspire me.\n",
+    "page_count": 191
+  },
+  {
+    "title": "Python_Cookbook_3rd_Edition",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Python_Cookbook_3rd_Edition.pdf",
+    "preview": "www.it-ebooks.info\nwww.it-ebooks.info\nDavid Beazley and Brian K. Jones\nTHIRD EDITION\nPython Cookbook\nwww.it-ebooks.info\n",
+    "page_count": 706
+  },
+  {
+    "title": "QL-JkWMZyPs",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/QL-JkWMZyPs.pdf",
+    "preview": "this print for content only\u2014size & color not accurate spine = 0.729\"  312 page countEMPOWERING PRODUCTIVITY FOR THE JAVA\u2122 DEVLOPER\nAccelerated GWT: Building Enterprise \nGoogle Web Toolkit Applications\nDear Reader,\nWriting web applications in JavaScript and making them work in different \nbrowsers has long been an issue faced by developers. Not anymore! Discover \nthe GWT framework, which helps you write Ajax-based web applications in \nJava and then converts them into JavaScript for all supported browsers. \nAccelerated GWT  is my way of taking the pain out of learning GWT for you. \nAs a developer, I was immediately excited by the idea of not doing repetitive \ncoding and adding tweaks to make an application compatible with different \nbrowsers. Since then, I\u2019ve come to understand and admire the clarity and ease \nof developing web applications using GWT. I can honestly say that GWT greatly \nsimplifies the creation of complex Ajax-based web applications and puts a lot \nof fun back into developing.\nIf you\u2019re trying to decide whether GWT would be good for your project, \nyou\u2019ll find that this book covers what you need to know and what you can gain \nby using it. \nAfter mastering the fundamentals of GWT, you\u2019ll learn about the remote \nprocedure calls and the asynchronous callback mechanism, how to write test \ncases and benchmark tests for your application, how to bundle images, how to \nwrite applications with internationalization in mind, and how to design reusable \nmodules. In addition, you\u2019ll learn how to compile and convert your Java code \ninto JavaScript and deploy your applications on a web server. Throughout the \nbook, you\u2019ll find a large number of examples to help you understand and use \nthese features with ease.\nAfter reading this book, you will thoroughly understand the GWT framework \nand what it can do for your applications.\nVipul Gupta\nUS $36.99\nShelve in  \nWeb Development\nUser level:  \nBeginner\u2013Intermediate\nGupta\n Accelerated  GWTTHE EXPERT\u2019s VOICE\u00ae IN WEb DEVELOPME",
+    "page_count": 313
+  },
+  {
+    "title": "Questions Are the Answer",
+    "author": "Hal B. Gregersen",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Gregersen, Hal B_/Questions Are the Answer/Questions Are the Answer - Hal B. Gregersen.pdf",
+    "preview": "\n\n\n",
+    "page_count": 276
+  },
+  {
+    "title": "Range",
+    "author": "David J. Epstein",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Epstein, David J_/Range/Range - David J. Epstein.pdf",
+    "preview": "\nPraise for Range\n\u201cA well-s upported  and  smoothly  written  case  on  behalf  of  brea dth  and  late\nstarts  . . . As  David  Epstein  shows  us , cultivating  range  prepares  us  for  the\nwickedly  unanticipated . \u201d\n\u2014 W all  Street  Journal\n\u201cThe  storytelling  is  so  dramatic , the  wielding  of  data  so  deft , and  the  lessons  so\nstrikingly  framed  that  it\u2019 s  never  less  than  a  pleasure  to  read . . . . A  wealth  of\nthought-provoking  material . \u201d\n\u2014 The New  Y ork  T imes  Book  Review\n\u201c Range  is a blueprint  for  a  more  thought ful , collaborative  world\u2014and  it\u2019 s  also\nreally  fun  to  read . \u201d\n\u2014NPR , Best  Books  of  2019\n\u201cThe  most  important  business\u2014and  parenting\u2014book  of  the  year . \u201d\n\u2014 Forbes\n\u201cFascinating  . . . If  you\u2019re  a  gener alist  who  has  ever  felt  overshado wed  by  your\nspecialist  colleagues , this  book  is  for  you . \u201d\n\u2014Bill  Gates\n\u201cFor reas ons  I  cannot  explain , David  Epstein  manages  to  make  me  thoroughly\nenjoy  the  experience  of  being  to ld  that  everything  I  thought  abou t  something\nwas wrong . I  loved  Range . \u201d\n\u2014Malcolm  Gladwell , author  of  Outliers  and  The T ipping  Point\n\u201cIt\u2019 s a  joy  to  spend  hours  in  the  company  of  a  writer  as  gifted  as  David  Epstein .\nAnd the  joy  is  all  the  greater  w hen  that  writer  shares  so  much  crucial  and\nrevelatory  information  about  performance , success , and  education . \u201d\n\u2014Susan  Cain , author  of  Quiet\n\u201cFor too  long , w e\u2019ve  believed  in  a  single  path  to  excellence . Start  early ,\nspecialize  soon , narrow  your  focus , aim  for  ef\ufb01ciency . But  in  this\ngroundbreaking  book , David  Epstein  shows  that  in  most  domains , the  way  to\nexcel  is  someth ing  altogether  dif ferent . Sample  widely , gain  a  breadth  of\nexperiences , take  detours , and  experiment  relentlessly . Epstein  is  a  deft  writer ,\nequally  n imble  at  telling  a  great  story  and  unpacking  complicated  science . And\nRange  i s ",
+    "page_count": 385
+  },
+  {
+    "title": "Ready Player One",
+    "author": "Cline, Ernest",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Ready Player One - Cline, Ernest.pdf",
+    "preview": "\n\nMore Advance Praise  \nfor Ready Player One\n\u00a0\n\u201c[An] adrenali ne shot of uncut geekdom \u00a0\u2026\u00a0sweet, self-deprecating\nWade, whose universe is an odd mix of the real past and the virtual present,\nis the perfect lovable/unlikely her o.\u201d\n\u2014Publishers W eekly\n\u00a0\n\u201cThe pure, unfetter ed brainscr eam of a child of the \u201980s, like a dream\nmy thirteen-year -old self would have had after bingeing on Pop Rocks and\nCoke.\u2026 I couldn\u2019t put it down.\u201d\n\u2014Charles Ardai, Edgar A ward\u2013winning author  \nand pr oducer of  Haven\n\u00a0\n\u201cPur e geek heaven . Ernest Cline\u2019 s hero competes in a virtual world with\nlife-and-death stakes\u2014which is only \ufb01tting, because he\u2019s \ufb01ghting to make\nhis dreams into reality . Cline blends a dystopic future with meticulously\ndetailed nostalgia to create a story that will resonate in the heart of every\ntrue nerd.\u201d\n\u2014Christopher Farnsworth, author of  Blood Oath\n\u00a0\n\u201cA fantastic adventur e set in a futuristic world with a retro heart . Once\nI started reading, I didn\u2019 t want to put it down and I couldn\u2019 t wait to pick it\nback up.\u201d\n\u2014S. G. Br owne, author of  Breathers\n\u00a0\n",
+    "page_count": 384
+  },
+  {
+    "title": "Remove Negative Thinking_ How to Instantly Harness MindGirlBizMind Series Book 1)",
+    "author": "Klopcic, Helga & Harry, KC",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Klopelga/Remove Negative Thinking_ How to Instantly Haive Thinking (The #GirlBizMind Series Book 1)/Remove Negative Thinking_ How to Instantly Harness MindGirlBizMind Series Book 1) - Klopcic, Helga & Harry, KC.pdf",
+    "preview": "\nREMOVE NEGA TIVE THINKING\nHow to Instantly Harness Mindfulness\nand The Power of Positive Thinking\nThe #GirlBizMind Series, Book 1\nWhile every precaution has been taken in the preparation of this book, the\npublisher assumes no responsibility for errors or omissions, or for damages\nresulting from the use of the information contained herein.\nREMOVE NEGA TIVE THINKING: HOW T O INST ANTL Y HARNESS\nMINDFULNESS AND THE POWER OF POSITIVE THINKING\nFirst edition. December 12, 2014.\nCopyright \u00a9 2014 Helga Klopcic and KC Harry.\nISBN: 978-1502280220\nWritten by Helga Klopcic and KC Harry .\n",
+    "page_count": 66
+  },
+  {
+    "title": "Remove Negative Thinking_ How to Instantly Series Book 1)",
+    "author": "Helga Klopcic & KC Harry",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Klopcic,arry, KC/Remove Negative Thinking_ How to Instantly Thinking (The #GirlBizMind Series Book 1)/Remove Negative Thinking_ How to Instantly Series Book 1) - Helga Klopcic & KC Harry.pdf",
+    "preview": "\nREMOVE NEGA TIVE THINKING\nHow to Instantly Harness Mindfulness\nand The Power of Positive Thinking\nThe #GirlBizMind Series, Book 1\nWhile every precaution has been taken in the preparation of this book, the\npublisher assumes no responsibility for errors or omissions, or for damages\nresulting from the use of the information contained herein.\nREMOVE NEGA TIVE THINKING: HOW T O INST ANTL Y HARNESS\nMINDFULNESS AND THE POWER OF POSITIVE THINKING\nFirst edition. December 12, 2014.\nCopyright \u00a9 2014 Helga Klopcic and KC Harry .\nISBN: 978-1502280220\nWritten by Helga Klopcic and KC Harry .\n",
+    "page_count": 65
+  },
+  {
+    "title": "Reset_ How to Change What's Not Working",
+    "author": "Dan Heath",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Heath, Dan/Reset_ How to Change What's Not Working/Reset_ How to Change What's Not Working - Dan Heath.pdf",
+    "preview": "\n\nThank you for\ndownloading this Simon\n& Schuster ebook.\nGet a FREE ebook when you join our mailing list. Plus, get updates\non new releases, deals, recommended reads, and more from Simon\n& Schuster. Click below to sign up and see terms and conditions.\nCLICK HERE TO SIGN UP\nAlready a subscriber? Provide your email again so we can register\nthis ebook and send you more of what you like to read. You will\ncontinue to receive exclusive o\ufb00ers in your inbox.\n",
+    "page_count": 255
+  },
+  {
+    "title": "Resistance Training Revolution, The",
+    "author": "Sal Di Stefano",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Di Stefano, Sal/Resistance Training Revolution, The/Resistance Training Revolution, The - Sal Di Stefano.pdf",
+    "preview": "\n\n\n",
+    "page_count": 499
+  },
+  {
+    "title": "Revelations in Context",
+    "author": "The Church of Jesus Christ of Latter-day Saints",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Saints, The Church of Jesus Christ of Latter-day/Revelations in Context/Revelations in Context - The Church of Jesus Christ of Latter-day Saints.pdf",
+    "preview": "\nRevelations in ContextThe Stories behind the Sections of\nthe Doctrine and Covenants\nEdited by Matthew McBride and James GoldbergIncluding Insights from the Joseph Smith\nPapers\nPublished by  \nThe Church of Jesus Christ of Latter-day Saints  \nSalt Lake City , Utah\n\u00a9 2016 by Intellectual Reserve, Inc.  \nAll rights reserved.  \nPrinted in the United States of America\nEnglish approval: 8/16  \nTranslation approval: 8/16  \nTranslation of Revelations in Context  \nLanguage  \n14095 000\nISBN : 978-1-4651-1885-1\n",
+    "page_count": 562
+  },
+  {
+    "title": "SAINTCON Receipt",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/SAINTCON Receipt.pdf",
+    "preview": "SAINTCON REGISTRA TION REFUND POLICY\nIF YOU ARE UNABLE T O ATTEND THE CONFERENCE, YOU MA Y TRANSFER YOUR REGISTRA TION T O ANOTHER A TTENDEE, REQUEST A REFUND, OR LEA VE THE REGISTRA TION P AID AS A DONA TION T O THE UT AHSAINT/SAINTCON ORGANIZA TION.\nTRANSFERRING A REGISTRA TION TO ANOTHER ATTENDEE CAN BE DONE AT NO ADDITIONAL CHARGE BY CONT ACTING THE UTAHSAINT ORGANIZA TION AS LISTED BELOW TO NOTIFY US OF THE CHANGE. ATTENDEE REGISTRA TION CHANGES MUST BE MADE PRIOR TO THE\nSTART OF THE CONFERENCE AND WILL NOT BE ACCOMMODA TED ONSITE.\nA FULL REFUND OF THE REGISTRA TION COST CAN BE GIVEN IF THE CANCELLA TION IS MADE BEFORE SEPTEMBER 9, 2017. TO SUBMIT A CANCELLA TION FOR A REFUND, YOU MUST CONT ACT THE UTAHSAINT ORGANIZA TION VIA PHONE OR EMAIL ON OR BEFORE THE FINAL\nCANCELLA TION DA TE. CONT ACT INFORMA TION IS LISTED BELOW .\nNO REFU ND WILL BE ISSUED FOR CANCELLA TIONS RECEIVED AFTER SEPTEMBER 9, 2017, WITH EXCEPTIONS MADE FOR A JUSTIFIABLE EMERGENCY . AN EMERGENCY OR SIGNIFICANT EVENT WILL BE CONSIDERED BY THE ORGANIZA TION, THE DECISION REACHED BY THE\nORGANIZA TION REGARDING THE EXCEPTION WILL BE FINAL.\nUTAHSAINT ORGANIZA TION / SAINTCON IS NOT RESPONSIBLE FOR PROBLEMS BEYOND OUR CONTROL SUCH AS VENUE CONDITIONS, PARKING, LODGING, ETC. NO REFUNDS WILL BE GIVEN IN THESE SITUA TIONS. THE FINAL DECISION ON REFUNDS RESTS WITH THE\nUTAHSAINT ORGANIZA TION COMMITTEE AND TREASURER.\nYOU MA Y REQUEST A REFUND OF YOUR CONFERENCE REGISTRA TION PURCHASE BY CONT ACTING THE UT AHSAINT ORGANIZA TION VIA THE FOLLOWING METHOD(S): PHONE: 801-999-8769 OR VIA EMAIL: REFUND@SAINTCON.ORGThank you for registering for SAINTCON 2017.\nSAINTCON will be held on October 10-13, 2017 at the Utah V alley Convention Center in Provo, Utah.\nELECTRONIC BADGE NOTICE:\nPLEASE BE AWARE: ANYONE REGISTERING AFTER SEP 20, 2017 WILL NOT BE GUARANTEED TO RECEIVE AN ELECTRONIC BADGE WHEN ATTENDING\nSAINTCON. REGISTRA TION NUMBERS HAVE PASSED ALL OF OUR PREVIOUS ESTIMA TES AND WE ARE NOW WORKING TO ENSURE WE ",
+    "page_count": 1
+  },
+  {
+    "title": "Science of Scaling, The",
+    "author": "Benjamin Hardy & Blake Erickson",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Hardy, Benjamin & Erickson, Blake/Science of Scaling, The/Science of Scaling, The - Benjamin Hardy & Blake Erickson.pdf",
+    "preview": "\nPraise for Dr. Benjamin Hardy\nThe Science of Scaling is transformative. Its scaling framework and\nphilosophy is a r oad map for both startups and matur e companies to cr eate\nincredible gr owth and performance. I truly believe if a founder or leader\nembraces the paradigm shift this book offers, they can rapidly scale their\ncompany\u2014no matter the size.\n\u2014 Robert C. Gay, former senior managing director and chair of the management\ncommittee of Bain Capital\nIt\u2019s rar e that a book marks a paradigm shift and r emodeling of an entir e\n\ufb01eld of thought. This book r ede\ufb01nes business strategy and scaling. I\nactually wish I\u2019d written this book. It perfectly encapsulates the simple\nstrategies I\u2019ve used to help our business leaders achieve seemingly\nimpossible goals again and again.\n\u2014 Tony Robbins, #1 New York Times best-selling author, global entrepreneur, investor,\nphilanthropist, and the world\u2019s #1 life and business strategist\nThe Science of Scaling is a paradigm-shifting, br eakthr ough book because\nit represents a br eak with traditional thinking about gr owth, leadership,\nand cultur e. Har dy and Erickson r eframe scaling not just as a strategic\nchallenge but as a leadership imperative: your \u201c\ufb02oor\u201d becomes your\ncultur e and your clarity becomes your competitive edge. A bold,\ncompelling, and timely guide for leaders r eady to raise both their ceiling\nand their \ufb02oor .\n\u2014 Stephen M. R. Covey, New York Times and #1 Wall Street Journal best-selling author\nof The Speed of Trust and Trust & Inspire\nALS O BY  DR. BEN JAM IN HARDY\nBooks\nBe Your Futur e Self Now: The Science of\nIntentional T ransformation*\nPersonality Isn\u2019 t Permanent: Br eak Fr ee from Self-Limiting\nBeliefs and Rewrite Y our Story\nWillpower Doesn\u2019 t Work: Discover the Hidden Keys to Success\nSlipstr eam T ime Hacking: How to Cheat T ime,\nLive Mor e, and Enhance Happiness\nCo-Authored with Dan Sullivan:\n10x Is Easier Than 2x: How W orld-Class Entr epreneurs\nAchieve Mor e by Doing Less*\nThe Gap and the Gain: The High-Achi",
+    "page_count": 212
+  },
+  {
+    "title": "Seasons of Life Image",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Seasons of Life Image.pdf",
+    "preview": "\nABOUT\n\"THE SEASONS OF LIFE\"\nThis book is intended for reading by all people, and for all\nreasons. It is a philosophical glimpse into the common\nthreads interwoven among the laws of nature and man. It\nuniquely defines how both life and business are like the\nchanging seasons.\n\"The Seasons of Life\" could have been written by any of us,\nfor it is the story of all of us. It studies both triumph and\ntragedy...the effect both have on the ultimate quality of our\nindividual lives. The words written within these pages are\nbasic to the ideas and insights created by Jim Rohn, and are\ncovered in his many seminars across America and around the\nworld.\nThe vehicle for producing and sharing his principles, Jim\nRohn International, has itself become one of the success sto-\nries brought about through implementing his teachings. The\ncompany is committed to the exposure of worthy ideals wher-\never a willing audience may be found.\n\"The Seasons of Life\" will, at a future point in time, be\nlooked upon as the cornerstone of new thought...capable of\ntransforming people and organizations, from the valleys of\nmediocrity, to the peaks of achievement. It is the forerunner of\nmany creations to be produced and marketed by Jim Rohn\nInternational. It abounds in inspiration, capsulizes truth, and\nclearly identifies guidelines for those in search of the better\nlife.\nFor those seeking the discovery of themselves, this book may\nwell be the key which will unlock the door to a whole new\nworld of accomplishment and contentment.\n1\n",
+    "page_count": 126
+  },
+  {
+    "title": "Seasons_of_Life",
+    "author": "Unknown",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Seasons_of_Life.pdf",
+    "preview": "\u00a0ABOUT\n\u00a0\"THE SEASONS OF LIFE\"\n\u00a0This book is intended for reading by all people, and for all reasons. It is a\nphilosophical glimpse into the common threads interwoven among the laws\nof nature and man. It uniquely de\ufb01nes how both life and business are like\nthe changing seasons.\n\u00a0\"The Seasons of Life\" could have been written by any of us, for it is the\nstory of all of us. It studies both triumph and tragedy ...the effect both have\non the ultimate quality of our individual lives. The words written within\nthese pages are basic to the ideas and insights created by Jim Rohn, and are\ncovered in his many seminars across America and around the world.\n\u00a0The vehicle for producing and sharing his principles, Jim Rohn\nInternational, has itself become one of the success sto- ries brought about\nthrough implementing his teachings. The company is committed to the\nexposure of worthy ideals wher - ever a willing audience may be found.\n\u00a0\"The Seasons of Life\" will, at a future point in time, be looked upon as the\ncornerstone of new thought ...capable of transforming people and\norganizations, from the valleys of mediocrity , to the peaks of achievement.\nIt is the forerunn er of many creations to be produced and marketed by Jim\nRohn International. It abounds in inspiration, capsulizes truth, and clearly\nidenti\ufb01es guidelines for those in search of the better life.\n\u00a0For those seeking the discovery  of themselves, this book may well be the\nkey which will unlock the door to a whole new world of accomplishment\nand contentment.\n \n \nACKNOWLEDGEMENTS  \nTo My Mother and Father ...who taught me that life and business is like the\nchanging seasons.  \nTo Kyle  Wilson...who \ufb01nds unique ways for more people to hear and share\nour ideas.  \n.11 To All Those Who Contrib uted...from my early years until now. The\naudience which you've provided to me\u2014both public and private, large and\nsmall, in con- versation or in seminar\u2014forces me to \ufb01nd new ways to share\nmy deepest thoughts. Each of you will know how you've t",
+    "page_count": 37
+  },
+  {
+    "title": "Secure-Anchor-ebook_Do-You-Know-CISO",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Secure-Anchor-ebook_Do-You-Know-CISO.pdf",
+    "preview": "1\nDO YOU KNOW CISO?\nEverything You Need to Know for a CISO to be Successful\nwww.secureanchor.com2Step back, if you will, into the time machine and travel with \nme to 1995. We\u2019re visiting the graduating class of Anywhere \nCollege.\nAsk any of them\u2014go on, ask\u2014what he or she plans to be in \n20 years. \nHow many answer \u201cChief Information Security Officer?\u201d \nProbably none.\nYet in just 20 short years, in today\u2019s volatile business land -\nscape of cybercriminals and information breaches, the role \nof the CISO has become a vital part of the C-level executive \nteam. \nCISOs bear the mantle of preserving privacy and protecting \nthe critical data an organization considers most valuable. They maintain an exhaustive level of scrutiny throughout \na company\u2019s network. And they provide an enterprise-wide \nstrategy to support the security infrastructure. \nThese activities are not only crucial, but exciting\u2014such that \nstudents today might certainly aspire to take on the role.\nAnd whether you\u2019re thinking of hiring a CISO, or you\u2019re a CISO \nyourself, perhaps you\u2019re excited too. \nOr nervous, or simply confused. \nWhat is a CISO, really? What makes a good one? And how \ncan you make sure that you or a new hire truly succeed in \nthe position?\nThis ebook aims to clear up those questions and more.INTRODUCTION\n\n3\nWHAT \nEXACTL Y\nIS A CISO? \nAlthough we tend to admire our superheroes for \nthe cars they lift with their bare hands or the other -\nworldly attributes they display, a superhero doesn\u2019t \nneed supernatural powers to live up to the name. \nSome superheroes are simply everyday people.\nSuch as your typical CISO, for example.\nWhat they lack in the ability to shoot lasers from \ntheir eyes, they make up for in the role they play in \nprotecting innocent data, catching adversaries, and \nbeing flexible enough (without stretching their limbs \nbeyond belief) to bring even the most reluctant \nboard members together for a common cause.\nIn today\u2019s cybersecurity landscape of information \nleak and data breac",
+    "page_count": 14
+  },
+  {
+    "title": "Security Team Operating System_ How to Run an Unstoppable Team",
+    "author": "Christian Hyatt",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Hyatt, Christian/Security Team Operating System_ How to Run an Unstoppable Team/Security Team Operating System_ How to Run an Unstoppable Team - Christian Hyatt.pdf",
+    "preview": "\nSECURITY TEAM\nOPERATING SYSTEM\nHow to Run an Unstoppable Team\nCHRISTIAN HYATT\n\u00a0\nStone Crest Publishing\nwww .stonecrestbooks.com\nSecurity T eam Operating System \u00a9 Copyright 2024\nChristian Hyatt\nFirst Edition\nPublished in the United States by Stone Crest Books\nStone Crest Books | www .stonecrestbooks.com\nAn imprint of Dinosaur House\nAll rights reserved. No part of this publication may be\nreproduced, distributed or transmitted in any form or by\nany means, including photocopying, recording, or other\nelectronic or mechanical methods, without the prior written\npermission of the publisher , except in the case of brief\nquotations embodied in critical reviews and certain other\nnoncommercial uses permitted by copyright law .\n\u00a0\nISBN :978-1-961462-17-5 (hardcover)\n\u00a0 978-1-961462-18-2 (paperback)\n\u00a0978-1-961462-19-9 (ebook)\n\u00a0\nExecutive Editor: Chas Hoppe\nPublishing Manager: Stone Crest Books\n",
+    "page_count": 321
+  },
+  {
+    "title": "ShadowKing",
+    "author": "Unknown",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/ShadowKing.pdf",
+    "preview": "\n\n\n",
+    "page_count": 406
+  },
+  {
+    "title": "Shoulder Pain_ The Solution & Prevention_ Fourth Edition",
+    "author": "John M. Kirsch M.D_",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Kirsch M.D., John M_/Shoulder Pain_ The Solution & Prevention_ Fourth Edition/Shoulder Pain_ The Solution & Prevention_ Fourth Edition - John M. Kirsch M.D_.pdf",
+    "preview": "\nSHOULDER P AIN?\n\u00a0\nTHE SOLUTION & PREVENTION\n\u00a0\nFOUR TH  E DITION\nRevised & Expanded\n\u00a0\n\u00a0\nBY\n\u00a0\nJOHN M. KIRSCH, M.D.\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\n\u00a0\nw w w . b o o k s t a n d p u b l i s h i n g . c o m\n",
+    "page_count": 118
+  },
+  {
+    "title": "Slow Productivity",
+    "author": "Cal Newport",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Newport, Cal/Slow Productivity/Slow Productivity - Cal Newport.pdf",
+    "preview": "\nALSO  BY  CAL  NEWPOR T\nA W orld  Without  Email\nDigital  Minimalism\nDeep  W ork\nSo Good  They  Can\u2019t  Ignore  Y ou\nHow  to  Be  a  High  School  Superstar\nHow  to  Become  a  Straight-A  Student\nHow  to  Win  at  College\n\n",
+    "page_count": 257
+  },
+  {
+    "title": "social_engineering_the_art_of_human_hacking",
+    "author": "Unknown",
+    "formats": [
+      "epub"
+    ],
+    "pdf_path": null,
+    "preview": ""
+  },
+  {
+    "title": "Spirit of Revelation, The",
+    "author": "David A. Bednar",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Bednar, David A_/Spirit of Revelation, The/Spirit of Revelation, The - David A. Bednar.pdf",
+    "preview": "\n\nBook design \u00a9 Deseret Book Company  \nCover design by Sheryl Dickert Smith  \nArt direction by Richard Erickson  \nCover image by Pavel V aschenkov and Marco Ossino/Shutterstock.com\n\u00a9 2021 David A. Bednar\nAll rights reserved. No part of this book may be reproduced in any form or by any means without\npermission in writing from the publisher , Deseret Book Company , at permissions@deseretbook.com.\nThis work is not an of\ufb01cial publication of The Church of Jesus Christ of Latter -day Saints. The views\nexpressed herein are the responsibility of the author and do not necessarily represent the position of\nthe Church or of Deseret Book Company .\nDESERET  B OOK is a registered trademark of Deseret Book Company .\nVisit us at deseretbook.com\nLibrary of Congress Cataloging-in-Publication Data\nNames: Bednar , David A., author .\nTitle: The spirit of revelation / David A. Bednar .\nDescription: Salt Lake City , Utah : Deseret Book, [2021] | Includes bibliographical references and\nindex. | Summary: \u201cElder David A. Bednar of the Quorum of the T welve Apostles of The Church\nof Jesus Christ of Latter -day Saints writes about the principles of revelation and gives personal\nexamples of those principles in action\u201d\u2014Provided by publisher .\nIdenti\ufb01ers: LCCN 2021013196 | ISBN 9781629729480 (hardback) | eISBN 978-1-64933-088-8\n(eBook)\nSubjects: LCSH: Revelation\u2014The Church of Jesus Christ of Latter -day Saints. | Revelation\u2014\nMormon Church. | Mormons\u2014Spiritual life.\nClassi\ufb01cation: LCC BX8643.R4 B43 2021 | DDC 231.7/4\u2014dc23\nLC record available at https://lccn.loc.gov/2021013196\nPrinted in the United States of America\n10 9 8 7 6 5 4 3 2 1\n",
+    "page_count": 105
+  },
+  {
+    "title": "Start with Why_ How Great Leaders Inspire Everyone to Take Action",
+    "author": "Sinek, Simon",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Sinek, Simon/Start with Why_ How Great Leaders Inspire Everyone to Take Action/Start with Why_ How Great Leaders Inspire Everyone to Take Action - Sinek, Simon.pdf",
+    "preview": "\n\n\n",
+    "page_count": 1101
+  },
+  {
+    "title": "Statistics for Dummies II",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Statistics for Dummies II.pdf",
+    "preview": "Get More and Do More at Dummies.come\nStart with FREE Cheat Sheets\nCheat Sheets include\n\u2022Checklists\n\u2022Charts\n\u2022Common Instructions\n\u2022And Other Good Stuff!\nTo access the Cheat Sheet created specifically for this book, go to\nwww.dummies.com/cheatsheet/statistics2\nGet Smart at Dummies.com111,,-)mies.com  makes your life easier with 1,000s\nsavers on everything from removing wallpaper\nsing the latest version of Windows.\nCheck out our\n\u2022Videos\n\u2022Illustrated Articles\n\u2022Step-by-Step Instructions\nPlus, each month you can win valuable prizes by entering\nour Dummies.com  sweepstakes.*\nWant a weekly dose of Dummies? Sign up for Newsletters on\n\u2022Digital Photography\n\u2022Microsoft Windows & Office\n\u2022Personal Finance & Investing\n\u2022Health & Wellness\n\u2022Computing, iPods & Cell Phones\n\u2022eBay\n\u2022Internet\n\u2022Food, Home & Garden\nFind out\"HOW\" at Dummies.com\n.fioveel)Aciket. (0)1 w\u25bati\u25bastly availably in all (unlis\u25ba\\, vissi ()ammo-, ( OM fin ()ilk WIti\nby Deborah Rumsey, PhD\n*WILEY\nWiley Publishing, Inc.\nStatistics II For Dummies \u00ae\nPublished by\nWiley Publishing, Inc.\n111 River St.\nHoboken, N.I 07030-5774\n%\\TV\u25a0-\u20181\u2022 .\t e y . corn\nCopyright \u00a9 2009 by Wiley Publishing, Inc., Indianapolis, Indiana\nPublished by Wiley Publishing, Inc., Indianapolis, Indiana\nPublished simultaneously in Canada\nNo part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or\nby any means, electronic, mechanical, photocopying, recording, scanning or otherwise, except as permit-\nted under Sections 107 or 108 of the 1976 United States Copyright Act, without either the prior written\npermission of the Publisher, or authorization through payment of the appropriate per-copy fee to the\nCopyright Clearance Center, 222 Rosewood Drive, Danvers, MA 01923, (978) 750-8400, fax (978) 646-8600.\nRequests to the Publisher for permission should be addressed to the Permissions Department, John Wiley\n& Sons, Inc., 111 River Street, Hoboken, NJ 07030, (201) 748-6011, fax (201) 748-6008, or online at ht tp : / /\nwww w ",
+    "page_count": 408
+  },
+  {
+    "title": "Stealing Fire_ How Silicon Vall",
+    "author": "Steven Kotler",
+    "formats": [
+      "mobi"
+    ],
+    "pdf_path": null,
+    "preview": ""
+  },
+  {
+    "title": "Stephen L Richards",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Stephen L Richards.pdf",
+    "preview": "\n\n\n",
+    "page_count": 195
+  },
+  {
+    "title": "Stephen_L_Richards_Biography",
+    "author": "Unknown",
+    "formats": [
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Stephen_L_Richards_Biography.pdf",
+    "preview": "Stephen L Richards\n1879-1959\nBy\nW. Dee Halverson\nHeritage Press Ltd.\n\nTable or Contents\nDedication and Acknowledgement \u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022 .i\nIntroduction \u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022 .ii\nChapter 1\nA Noble Heritage-- The Richards & Stayner Families \u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022 l\nChapter 2\nLessons of a Country Boyhood 23\nChapter 3\nIrene Smith Merrill \"The Love of My Life\" \u2022.\u2022\u2022..\u2022\u2022\u2022..\u2022\u2022.\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022.\u2022...\u2022\u2022\u2022\u2022\u2022\u2022\u2022 42\nChapter 4\nFrom Malad to Michigan \u2022\u2022\u2022\u2022\u2022.\u2022\u2022.\u2022\u2022\u2022..\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022....\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022.\u2022\u2022\u2022.\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022 .55\nChapterS\nLife with Papa, 1901-1919 .\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022.\u2022\u2022\u2022.\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022. 71\nChapter 6\nStephen L Richards, Esquire \u2022.\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022.\u2022...\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022..\u2022\u2022.\u2022\u2022\u2022..\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022 94\nChapter 7\nCalling to the Quorum of the Twelve \u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022..\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022.\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022..\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022 112\nChapter 8\nThe First Presidency .\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022..\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022 .134\nChapter 9\nA Lasting Legacy \u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022 159\nBibliography \u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022.\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022 .186\n\nDedication and Acknowledgement\nThis history is dedicated to preserving the memory of the life and the lasting\nlegacy of Stephen L Richards. Proper acknowledgement should begiven to Lynn S.\nRichards and Stephen R. Covey for their support and encouragement. Significant\nresource documents, memories and insights were contributed by Alice Richards Allen,\nPhilip L. Richards, Richard M.Richards, Marilyn Covey Williams, and L.Stephen\nRichards, Jr.\nThis effort to \"plant inthe hearts of the children the promises made to the\nfathers,\" provides the bond and sense of belonging that ties together generations of\nfamily members on both sides of the veil. This welding is meant to give a sense of\nidenti",
+    "page_count": 195
+  },
+  {
+    "title": "Stillness Is the Key",
+    "author": "Ryan Holiday",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Holiday, Ryan/Stillness Is the Key/Stillness Is the Key - Ryan Holiday.pdf",
+    "preview": "\nPraise for\nSTILLNESS IS THE KEY\n\u201cSome authors give advice. Ryan Holiday distills wisdom. This book is a\nmust read.\u201d\n\u2014CAL NEWPORT, NEW YORK TIMES BESTSELLING AUTHOR\nOF DIGITAL MINIMALISM\n\u201cDon\u2019t be fooled. Within the pages of this unassuming little book lie a\nlife-changing idea: that in order to move forward, we must learn to be\nstill. Ryan Holiday has done it again.\u201d\n\u2014SOPHIA AMORUSO, COFOUNDER AND CEO, GIRLBOSS\n\u201cIn the world today the dangers are many\u2014most notably, the endless\ndistractions and petty battles that make us act without purpose or\ndirection. In this book, through his masterful synthesis of Eastern and\nWestern philosophy, Ryan Holiday teaches us all how to maintain our\nfocus and presence of mind amid the sometimes overwhelming con\ufb02icts\nand troubles of twenty-\ufb01rst-century life.\u201d\n\u2014ROBERT GREENE, NEW YORK TIMES BESTSELLING\nAUTHOR OF THE 48 LAWS OF POWER\n\u201cRyan Holiday is one of the brilliant writers and minds of our time. In\nStillness Is the Key he gives us the blueprint to clear our minds,\nrecharge our souls, and reclaim our power.\u201d\n\u2014JON GORDON, BESTSELLING AUTHOR OF THE ENERGY\nBUS\n\u201cRyan Holiday is a national treasure and a master in the \ufb01eld of self-\nmastery. In his most compelling book yet, he has mined both the\nclassical literature of the ancient world and cultural touchstones from\nMister Rogers to Tiger Woods, and brought his learnings to us in terms\nthat the frantic, distracted, overca\ufb00einated modern mind can\nunderstand and put to use. Highly recommended.\u201d\n\u2014STEVEN PRESSFIELD, BESTSELLING AUTHOR OF THE WAR\nOF ART AND THE ARTIST\u2019S JOURNEY\nPraise for Ryan Holiday\n\u201c[Ryan is a] self-help sage, who is now a sought-after guru to NFL\ncoaches, Olympians, hip-hop stars, and Silicon Valley entrepreneurs\u00a0.\u00a0.\u00a0.\n[he] translates Stoicism, which had counted emperors and statesmen\namong its adherents during antiquity, into pithy catchphrases and\ndigestible anecdotes for ambitious, twenty-\ufb01rst-century life hackers.\u201d\n\u2014ALEXANDRA ALTER, NEW YORK TIMES\n\u201cHoliday is an out-of-",
+    "page_count": 246
+  },
+  {
+    "title": "Stolen Focus",
+    "author": "Johann Hari",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Hari, Johann/Stolen Focus/Stolen Focus - Johann Hari.pdf",
+    "preview": "\n\n\n",
+    "page_count": 381
+  },
+  {
+    "title": "Storyworthy",
+    "author": "Matthew Dicks",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Seiersen, Richard/Dicks, Matthew/Storyworthy/Storyworthy - Matthew Dicks.pdf",
+    "preview": "\nPraise for Storyworthy  and Matthew Dicks\n\u201cOffers countless tips, exercises, and exam ples to get you on your way to better stories. Anyone\nwho wants to take the stage, become a better writer , or simply tell better stories at Thanksgiving will\nbene\ufb01t from Storyworthy .\u201d\n\u2014 Jef f Vibes, \ufb01lmmaker\n\u201cI laughed, gasped, took notes, and carried this book around like a dear friend \u2014 because that\u2019s\nexactly what a storyworthy book should be. As a novelist, I\u2019ve studied my craft in countless ways,\nbut never before have I seen its marrow revealed with such honest, approachable charisma. Matthew\nDicks has written a perceptive companion for every person who has a story to tell \u2014 and don\u2019t we\nall?\u201d\n\u2014 Sarah McCoy , internationally and New Y ork T imes\u2013bestselling author of Marilla of Gr een Gables\nand The Baker \u2019s Daughter\n\u201cMatthew Dicks is a master storyteller and an incredible teacher . Most importantly , he is an artist\nwho paints his verbal canvases with moments that change how his listeners see the world. Matt\ntaught me about the hidden arc and architecture that lie behind every well-told story, and I\u2019ve\nincorporated his techniques into innumerable courtroom presentations \u2014 and told several stories\nbefore live audiences \u2014 all thanks to Matt.\u201d\n\u2014 Ron Apter , trial lawyer\n\u201cWhen I gave Matthe w Dicks a recurring spot on my podcast, I billed him as \u2018the most interesting\nman in the world.\u2019 He really has lived quite a life. But what\u2019 s truly interesting is not necessarily\nwhat he\u2019 s experienced but how he makes you, the audience, experience it through him.\u201d\n\u2014 Mike Pesca,  NPR contributor and host of Slate  magazine\u2019 s daily podcast, The Gist\n\u201cLearning from Matthew Dicks has truly been life changing both for me as a public storyteller and\nfor my high school students. Matt\u2019 s practical advice and techniques can be applied immediately , and\nthat\u2019s what Matt encourages and inspires you to do. Start crafting your best stories right now: learn a\nlittle about yourself in the process and be",
+    "page_count": 302
+  },
+  {
+    "title": "Strategic Problem Solving_ A Step-by-Step Guide to Solve Hard Pions, Drive Innovation, and Lead with Confidence",
+    "author": "Mark Hartley",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Hartley, Mark/Strategic Problem Solving_ A Step-by-Step Guide to Solve Hard Pake Smart Decisions, Drive Innovation, and Lead with Confidence/Strategic Problem Solving_ A Step-by-Step Guide to Solve Hard Pions, Drive Innovation, and Lead with Confidence - Mark Hartley.pdf",
+    "preview": "\nStr ategic Problem Solving: A Step-\nby-Step Guide to Solve Hard\nProblems\nLeve rage Data Analysis and Critical Thinking to M ake\nSmart Decisions, Drive  Innova tion, and Lead with\nCon\ufb01dence\nM ark Hartley\nCopyright \u00a9 2024 Mark Hartley . All rights reserved.\u00a0\nThe content of this book may not be reproduced, duplicated, or transmitted withou t direct written\npermission from the author or the publisher .\u00a0\nUnder no circumstances will any blame or legal responsibility be held against the publisher or author\nfor any damages, reparation, or monetary loss due to the information contained within this book.\nEither directly or indirectly . You are responsible for your own choices, actions, and results.\u00a0\nLegal Notice:\nThis book is copyright-protected. This book is only for personal use. You cannot amend, distribute,\nsell, use, quote, or paraphrase any part or the content within this book without the author's or\npublisher's consent.\u00a0\nDisclaimer Notice:\nPlease note the information contained within this document is for educational and entertainment\npurposes only. All effort has been executed to present accurate, up-to-date, and reliable, complete\ninformation. No warranties of any kind are declared or implied. Readers acknowledg e that the author\nis not engaging in the rendering of legal , \ufb01nancial, medical, or professional advice. The content\nwithin this book has been derived from various sources. Please consult a licensed professional before\nattempting any techniques outlined in this book.\u00a0\nBy reading this document, the reader agrees that the author is under no circumstances responsible for\nany losses and/or damages, direct or indire ct, incurred as a result of using the information contained\nwithin this document, including, but not limited to, errors, omissions, or inaccuracies.\n",
+    "page_count": 119
+  },
+  {
+    "title": "Subtract",
+    "author": "Leidy Klotz",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/Klotz, Leidy/Subtract/Subtract - Leidy Klotz.pdf",
+    "preview": "\n\n \nBegin  Reading\nT able  of  Contents\nAbout  the  Author\nCopyright  Page\n \nThank  you  for  buying  this\nFlatiron  Books  ebook .\n \nT o receive  special  of fers , bonus  content ,\nand info  on  new  releases  and  other  great  reads ,\nsign up  for  our  newsletters .\n \nOr visit  us  online  at\nus. macmillan . com / newslettersignup\n \nFor email  updates  on  the  author , click  here .\n",
+    "page_count": 267
+  },
+  {
+    "title": "Summary of Tools of Titans_ Includes Key Takeaways",
+    "author": "FastReads",
+    "formats": [
+      "epub",
+      "pdf"
+    ],
+    "pdf_path": "/Users/jasricha/Desktop/Education_and_Training/Books_and_Resources/Ebooks/Ebooks/FastReads/Summary of Tools of Titans_ Includes Key Takeaways/Summary of Tools of Titans_ Includes Key Takeaways - FastReads.pdf",
+    "preview": "\nSUMMARY \nof \nTOOLS OF TITANS\nA FastReads Summary with \nKey Takeaways & Analysis\n\u00a0\nNOTE:  The purpose of this FastReads summary is to help you decide if it\u2019s\nworth the time, money and effort reading the original book (if you haven\u2019 t\nalready). FastR eads has pulled out the essence with comm entary and\ncritique\u2014but only to help you ascertain the value of the book for yourself.\nThis summary is meant to be a supplement to, and not a replacem ent for the\noriginal book.\nFollow this link  to purchase a copy of the original book on\nAmazon.\n \nCopyright \u00a9 2017 by FastReads. All rights reserved. This book or parts\nthereof may not be reproduced in any form, stored in any retrieval system,\nor transmitted in any form by any means\u2014electronic, mechanical,\nphotocopy , recording, or otherwise\u2014without prior written permission of the\npublisher , except as provided by United States of America copyright law .\nThis is an unof\ufb01cial summary for educational purposes and is not intended\nas a substitute or replacement for Tools of T itans .\n",
+    "page_count": 26
+  }
+]

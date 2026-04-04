@@ -1,0 +1,7 @@
+node_modules/
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+.superpowers/
+*.log
+.DS_Store
+.claude/
