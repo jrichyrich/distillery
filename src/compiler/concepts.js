@@ -54,7 +54,7 @@ export async function extractConcepts(summaries, topicPath, llmProvider) {
   }
 
   const prompt = conceptExtractionPrompt(newConcepts, existingConcepts);
-  const response = await llmProvider.complete(prompt);
+  const response = await llmProvider.complete(prompt, { format: 'json' });
 
   // Parse JSON response, handling markdown code fences
   let text = response.trim();

@@ -8,6 +8,7 @@ import { ingestImage } from '../ingestors/image.js';
 import { ingestYoutube } from '../ingestors/youtube.js';
 import { ingestDataset } from '../ingestors/dataset.js';
 import { ingestRepo } from '../ingestors/repo.js';
+import { ingestEpub } from '../ingestors/epub.js';
 
 const INGESTORS = {
   web: ingestWeb,
@@ -16,6 +17,7 @@ const INGESTORS = {
   youtube: ingestYoutube,
   dataset: ingestDataset,
   repo: ingestRepo,
+  epub: ingestEpub,
 };
 
 /**
@@ -87,7 +89,11 @@ export function makeIngestCommand() {
         } else if (source) {
           const result = await ingestSource(topic, source);
           console.log(`Ingested [${result.type}]: ${result.title}`);
-          console.log(`  -> ${result.path}`);
+          if (result.chapters) {
+            console.log(`  -> ${result.chapters} chapters extracted to ${result.path}`);
+          } else {
+            console.log(`  -> ${result.path}`);
+          }
         } else {
           console.error('Error: provide a <source> or use --batch <file>');
           process.exit(1);

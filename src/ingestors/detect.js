@@ -40,6 +40,7 @@ export function detectSourceType(source) {
   const ext = extname(source).toLowerCase();
 
   if (ext === '.pdf') return 'pdf';
+  if (ext === '.epub') return 'epub';
   if (IMAGE_EXTS.has(ext)) return 'image';
   if (DATASET_EXTS.has(ext)) return 'dataset';
   if (MARKDOWN_EXTS.has(ext)) return 'web';

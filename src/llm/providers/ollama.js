@@ -25,10 +25,15 @@ export class OllamaProvider extends LLMProvider {
       model,
       prompt,
       stream: false,
+      keep_alive: opts.keepAlive || '30m',
     };
 
     if (opts.system) {
       body.system = opts.system;
+    }
+
+    if (opts.format) {
+      body.format = opts.format;
     }
 
     const response = await fetch(`${this.#baseUrl}/api/generate`, {
@@ -53,6 +58,7 @@ export class OllamaProvider extends LLMProvider {
       prompt,
       images: images.map((img) => img.data),
       stream: false,
+      keep_alive: opts.keepAlive || '30m',
     };
 
     if (opts.system) {

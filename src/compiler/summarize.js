@@ -34,7 +34,7 @@ export async function summarizeSources(newFiles, topicPath, llmProvider) {
     const content = readFileSync(fullPath, 'utf-8');
     const prompt = summarizePrompt(content, filePath);
 
-    const response = await llmProvider.complete(prompt);
+    const response = await llmProvider.complete(prompt, { format: 'json' });
     const parsed = parseJSONResponse(response);
 
     results.push({

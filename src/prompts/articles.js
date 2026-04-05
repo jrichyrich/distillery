@@ -11,9 +11,13 @@ export function articlePrompt(concept, sources, existingArticles) {
     .map((s, i) => `[${i + 1}] ${s.path}\n${s.summary}`)
     .join('\n\n');
 
-  const backlinkList = existingArticles.length
-    ? existingArticles.join(', ')
+  const recentArticles = existingArticles.slice(-25);
+  const backlinkList = recentArticles.length
+    ? recentArticles.join(', ')
     : '(none yet)';
+  const backlinkNote = existingArticles.length > recentArticles.length
+    ? 'Only use the articles listed below for backlinks; the list is intentionally truncated.'
+    : 'Use the articles listed below for backlinks where relevant.';
 
   return `You are a technical writer for an Obsidian knowledge vault. Write a comprehensive article about the concept "${concept.name}".
 
@@ -26,9 +30,11 @@ ${sourceBlock}
 Other articles in the vault (use [[slug|title]] backlinks where relevant):
 ${backlinkList}
 
+${backlinkNote}
+
 Write the article in Obsidian-flavored Markdown. Include:
 
-1. YAML frontmatter with title, tags, parent, and date fields.
+1. YAML frontmatter with title, tags (as a YAML list, one per line with "  - " prefix, NOT comma-separated), parent, and date fields.
 2. A clear definition / overview section.
 3. Key details drawn from the sources (cite as [1], [2], etc.).
 4. Where appropriate, a Mermaid diagram illustrating relationships or processes.
