@@ -54,10 +54,19 @@ export function makeQueryCommand() {
     .argument('<topic>', 'Topic to query')
     .argument('<question>', 'Question to ask')
     .option('--save', 'Save answer as an Obsidian article')
-    .option('--slides', 'Generate a Marp slide deck')
-    .option('--chart', 'Generate a matplotlib chart')
-    .option('--canvas', 'Generate an Obsidian canvas')
-    .description('Ask a question about a topic')
+    .option('--slides', 'Generate a Marp slide deck for summaries and recaps')
+    .option('--chart', 'Generate a matplotlib chart for quantitative trends')
+    .option('--canvas', 'Generate an Obsidian canvas for concept maps and relationships')
+    .description('Ask a question about a topic, with optional visual outputs')
+    .addHelpText('after', `
+
+Visualization defaults:
+  --canvas   Concept maps and relationship graphs
+  --chart    Quantitative trends, counts, and comparisons
+  --slides   Narrative summaries and walkthroughs
+
+For inline diagrams inside markdown answers, use Mermaid syntax in the saved article output.
+`)
     .action(async (topic, question, options) => {
       try {
         const configPath = join(projectRoot(), 'config.json');

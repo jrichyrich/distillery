@@ -86,6 +86,12 @@ Inspired by Andrej Karpathy's approach to LLM knowledge bases.
 - `kb query <topic> "question" --chart` — Generate matplotlib visualization in visuals/charts/
 - `kb query <topic> "question" --canvas` — Generate Obsidian canvas concept map in visuals/canvas/
 
+### Visualization guidance
+- Use `--canvas` for conceptual and exploratory topics where the goal is to map ideas and relationships.
+- Use `--slides` for narrative summaries, walkthroughs, and topic recaps.
+- Use `--chart` for quantitative comparisons, counts, and time-series trends grounded in source data.
+- Use Mermaid inside saved markdown answers when the topic calls for a compact process flow or decision tree.
+
 ### Maintenance
 - `kb lint <topic>` — Health check: find inconsistencies, broken links, missing data
 - `kb lint <topic> --fix` — Auto-fix issues (with web search for missing data)
