@@ -12,7 +12,7 @@ export function makeCompileCommand() {
     .description('Run the compilation pipeline for a topic')
     .action(async (topic, options) => {
       try {
-        const configPath = join(projectRoot(), 'config.json');
+        const configPath = join(projectRoot(), 'kb.config.json');
         const config = loadConfig(configPath);
         const registry = new ProviderRegistry(config);
         const provider = registry.getForRole('compile');

@@ -56,13 +56,22 @@ export async function extractConcepts(summaries, topicPath, llmProvider) {
   const prompt = conceptExtractionPrompt(newConcepts, existingConcepts);
   const response = await llmProvider.complete(prompt, { format: 'json' });
 
-  // Parse JSON response, handling markdown code fences
+  // Parse JSON response, handling markdown code fences and trailing text
   let text = response.trim();
-  const fenceMatch = text.match(/^```(?:json)?\s*\n?([\s\S]*?)\n?```$/);
+  const fenceMatch = text.match(/```(?:json)?\s*\n?([\s\S]*?)\n?```/);
   if (fenceMatch) {
     text = fenceMatch[1].trim();
   }
-
-  const parsed = JSON.parse(text);
+  let parsed;
+  try {
+    parsed = JSON.parse(text);
+  } catch (_) {
+    const objMatch = text.match(/\{[\s\S]*\}/);
+    if (objMatch) {
+      parsed = JSON.parse(objMatch[0]);
+    } else {
+      throw new SyntaxError(`Could not extract JSON from LLM response: ${text.slice(0, 200)}`);
+    }
+  }
   return parsed.concepts || [];
 }

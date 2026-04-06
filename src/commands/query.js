@@ -69,7 +69,7 @@ For inline diagrams inside markdown answers, use Mermaid syntax in the saved art
 `)
     .action(async (topic, question, options) => {
       try {
-        const configPath = join(projectRoot(), 'config.json');
+        const configPath = join(projectRoot(), 'kb.config.json');
         const config = loadConfig(configPath);
         const registry = new ProviderRegistry(config);
         const provider = registry.getForRole('query');

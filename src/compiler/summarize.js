@@ -11,11 +11,20 @@ import { summarizePrompt } from '../prompts/summarize.js';
 function parseJSONResponse(raw) {
   let text = raw.trim();
   // Strip markdown code fences if present
-  const fenceMatch = text.match(/^```(?:json)?\s*\n?([\s\S]*?)\n?```$/);
+  const fenceMatch = text.match(/```(?:json)?\s*\n?([\s\S]*?)\n?```/);
   if (fenceMatch) {
     text = fenceMatch[1].trim();
   }
-  return JSON.parse(text);
+  // Try direct parse first
+  try {
+    return JSON.parse(text);
+  } catch (_) {}
+  // Extract first {...} block (handles trailing text or preamble)
+  const objMatch = text.match(/\{[\s\S]*\}/);
+  if (objMatch) {
+    return JSON.parse(objMatch[0]);
+  }
+  throw new SyntaxError(`Could not extract JSON from LLM response: ${text.slice(0, 200)}`);
 }
 
 /**

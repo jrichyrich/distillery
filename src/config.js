@@ -1,4 +1,5 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { basename, dirname, join } from 'node:path';
 
 const DEFAULT_CONFIG = {
   defaultProvider: 'anthropic',
@@ -24,11 +25,37 @@ const DEFAULT_CONFIG = {
   }
 };
 
+function resolveSiblingConfigPath(configPath) {
+  if (existsSync(configPath)) {
+    return configPath;
+  }
+
+  const dir = dirname(configPath);
+  const file = basename(configPath);
+
+  if (file === 'config.json') {
+    const sibling = join(dir, 'kb.config.json');
+    if (existsSync(sibling)) {
+      return sibling;
+    }
+  }
+
+  if (file === 'kb.config.json') {
+    const sibling = join(dir, 'config.json');
+    if (existsSync(sibling)) {
+      return sibling;
+    }
+  }
+
+  return configPath;
+}
+
 export function loadConfig(configPath) {
-  if (!existsSync(configPath)) {
+  const resolvedPath = resolveSiblingConfigPath(configPath);
+  if (!existsSync(resolvedPath)) {
     return structuredClone(DEFAULT_CONFIG);
   }
-  const raw = readFileSync(configPath, 'utf-8');
+  const raw = readFileSync(resolvedPath, 'utf-8');
   return JSON.parse(raw);
 }
 

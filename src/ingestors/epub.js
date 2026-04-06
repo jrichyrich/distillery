@@ -35,8 +35,12 @@ function buildFrontmatter({ title, source, type }) {
  */
 function stripHtml(html) {
   return html
+    // Remove incomplete trailing tag (no closing >)
+    .replace(/<[^>]*$/, '')
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<\/p>/gi, '\n\n')
+    // Kindle/Amazon EPUBs use <div class="was-a-p"> for paragraphs
+    .replace(/<div[^>]*class="was-a-p"[^>]*>/gi, '\n\n')
     .replace(/<\/div>/gi, '\n')
     .replace(/<\/h[1-6]>/gi, '\n\n')
     .replace(/<h([1-6])[^>]*>/gi, (_, level) => '#'.repeat(Number(level)) + ' ')
@@ -84,12 +88,17 @@ function parseOpf(opfPath) {
   const titleMatch = xml.match(/<dc:title[^>]*>([\s\S]*?)<\/dc:title>/i);
   const bookTitle = titleMatch ? titleMatch[1].trim() : '';
 
-  // Build manifest id -> href map
+  // Build manifest id -> href map (attributes may appear in any order)
   const manifest = {};
-  const itemRegex = /<item\s+[^>]*id="([^"]+)"[^>]*href="([^"]+)"[^>]*/g;
+  const itemRegex = /<item\s([^>]+)>/g;
   let match;
   while ((match = itemRegex.exec(xml)) !== null) {
-    manifest[match[1]] = match[2];
+    const attrs = match[1];
+    const idMatch = attrs.match(/\bid="([^"]+)"/);
+    const hrefMatch = attrs.match(/\bhref="([^"]+)"/);
+    if (idMatch && hrefMatch) {
+      manifest[idMatch[1]] = hrefMatch[1];
+    }
   }
 
   // Get spine order
@@ -138,7 +147,80 @@ function mapChaptersToFiles(tocPoints, spineFiles) {
  */
 function filterChapters(chapters) {
   const skipPatterns = /^(cover|title\s*page|copyright|dedication|also\s+by|praise|table\s+of\s+contents|contents|acknowledgment|about\s+the\s+author|index$|endnotes|notes$|bibliography|further\s+reading)/i;
-  return chapters.filter((ch) => !skipPatterns.test(ch.title.trim()));
+  return chapters.filter((ch) => {
+    const title = ch.title.trim();
+    if (skipPatterns.test(title)) return false;
+    // Skip purely numeric titles (page numbers, footnote refs, etc.)
+    if (/^\d+$/.test(title)) return false;
+    // Skip very short titles (1-2 chars)
+    if (title.length < 3) return false;
+    return true;
+  });
+}
+
+/**
+ * Parse the raw TOC NCX XML to extract anchor IDs (with fragment).
+ * Returns [{ title, anchor }] where anchor is the fragment (e.g. "a:M0"), or null if no fragment.
+ */
+function parseTocNcxWithAnchors(ncxPath) {
+  const xml = readFileSync(ncxPath, 'utf-8');
+  const points = [];
+  const navPointRegex = /<navPoint[^>]*>[\s\S]*?<text>([\s\S]*?)<\/text>[\s\S]*?<content\s+src="([^"]+)"[\s\S]*?<\/navPoint>/g;
+  let match;
+  while ((match = navPointRegex.exec(xml)) !== null) {
+    const title = match[1].trim().replace(/\s+/g, ' ');  // normalize whitespace
+    const src = match[2];
+    const hashIdx = src.indexOf('#');
+    const anchor = hashIdx !== -1 ? src.slice(hashIdx + 1) : null;
+    points.push({ title, anchor });
+  }
+  return points;
+}
+
+/**
+ * Split a single large HTML file into chapters using TOC anchor IDs.
+ * Returns [{ title, text }] for substantive chapters.
+ */
+function splitSingleFileEpub(htmlPath, tocPoints) {
+  const html = readFileSync(htmlPath, 'utf-8');
+  const skipPatterns = /^(cover|title\s*page|copyright|dedication|also\s+by|praise|table\s+of\s+contents|contents|acknowledgment|about\s+the\s+author|index$|endnotes|notes$|bibliography|further\s+reading|notes$|resource\s+[0-9]|what'?s\s+next)/i;
+
+  // Find positions of each anchor in the HTML
+  const positions = [];
+  for (const point of tocPoints) {
+    if (!point.anchor) continue;
+    // Match id="anchor" anywhere in the HTML
+    const searchStr = `id="${point.anchor}"`;
+    const pos = html.indexOf(searchStr);
+    if (pos !== -1) {
+      positions.push({ title: point.title, pos });
+    }
+  }
+
+  if (positions.length === 0) return [];
+
+  // Sort by position to ensure correct order
+  positions.sort((a, b) => a.pos - b.pos);
+
+  // Extract HTML slices between positions
+  const chapters = [];
+  for (let i = 0; i < positions.length; i++) {
+    const title = positions[i].title;
+    if (skipPatterns.test(title.trim())) continue;
+
+    // Advance start past the closing `>` of the tag containing the anchor
+    let start = positions[i].pos;
+    const tagEnd = html.indexOf('>', start);
+    if (tagEnd !== -1) start = tagEnd + 1;
+    const end = i + 1 < positions.length ? positions[i + 1].pos : html.length;
+    const slice = html.slice(start, end);
+    const text = stripHtml(slice).trim();
+    if (text.length > 200) {
+      chapters.push({ title, text });
+    }
+  }
+
+  return chapters;
 }
 
 /**
@@ -223,15 +305,61 @@ export async function ingestEpub(source, rawDir) {
 
   const tocPoints = parseTocNcx(tocPath);
   const allChapters = mapChaptersToFiles(tocPoints, spineFiles);
-  const chapters = filterChapters(allChapters);
+  let chapters = filterChapters(allChapters);
 
+  // Single-file EPUB fallback: all TOC entries point to one HTML file (e.g. Kindle/Amazon EPUBs)
+  // Detect by checking if all TOC src base files are the same
+  let singleFileChapters = null;
   if (chapters.length === 0) {
+    const tocRaw = parseTocNcxWithAnchors(tocPath);
+    const tocBaseFiles = [...new Set(
+      tocRaw.filter(p => p.anchor).map(p => {
+        // Get the base filename from the original toc.ncx src (before the #)
+        return null; // will re-read from raw NCX below
+      })
+    )];
+    // Re-parse toc.ncx raw to get base filenames
+    const ncxXml = readFileSync(tocPath, 'utf-8');
+    const srcMatches = [...ncxXml.matchAll(/<content\s+src="([^"]+)"/g)];
+    const baseFiles = [...new Set(srcMatches.map(m => m[1].split('#')[0]))];
+    const contentBaseFiles = baseFiles.filter(f => /\.x?html?$/i.test(f));
+
+    if (contentBaseFiles.length === 1) {
+      // All chapters in one HTML file
+      const htmlPath = join(opfDir, contentBaseFiles[0]);
+      if (existsSync(htmlPath)) {
+        singleFileChapters = splitSingleFileEpub(htmlPath, tocRaw);
+      }
+    }
+  }
+
+  if (chapters.length === 0 && (!singleFileChapters || singleFileChapters.length === 0)) {
     throw new Error('No substantive chapters found in EPUB');
   }
 
   const title = bookTitle || basename(source, extname(source));
   const written = [];
 
+  if (singleFileChapters && singleFileChapters.length > 0) {
+    // Write single-file EPUB chapters directly (already have text)
+    for (let i = 0; i < singleFileChapters.length; i++) {
+      const chapter = singleFileChapters[i];
+      const chapterNum = String(i).padStart(2, '0');
+      const chapterSlug = slugify(chapter.title);
+      const filename = `ch${chapterNum}-${chapterSlug}.md`;
+
+      const frontmatter = buildFrontmatter({
+        title: chapter.title,
+        source: title,
+        type: 'article',
+      });
+
+      const outputPath = join(articlesDir, filename);
+      writeFileSync(outputPath, frontmatter + '\n' + chapter.text, 'utf-8');
+      written.push({ path: outputPath, title: chapter.title });
+      console.log(`  Chapter ${chapterNum}: ${chapter.title}`);
+    }
+  } else {
   for (let i = 0; i < chapters.length; i++) {
     const chapter = chapters[i];
     const chapterNum = String(i).padStart(2, '0');
@@ -261,6 +389,7 @@ export async function ingestEpub(source, rawDir) {
     writeFileSync(outputPath, frontmatter + '\n' + combinedText, 'utf-8');
     written.push({ path: outputPath, title: chapter.title });
     console.log(`  Chapter ${chapterNum}: ${chapter.title}`);
+  }
   }
 
   // Cleanup temp dir

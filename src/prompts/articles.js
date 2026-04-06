@@ -19,7 +19,7 @@ export function articlePrompt(concept, sources, existingArticles) {
     ? 'Only use the articles listed below for backlinks; the list is intentionally truncated.'
     : 'Use the articles listed below for backlinks where relevant.';
 
-  return `You are a technical writer for an Obsidian knowledge vault. Write a comprehensive article about the concept "${concept.name}".
+  return `You are a technical writer for an Obsidian knowledge vault. Write the body of a concise, grounded article about the concept "${concept.name}".
 
 Concept description: ${concept.description || 'N/A'}
 Parent concept: ${concept.parent || 'none'}
@@ -32,14 +32,18 @@ ${backlinkList}
 
 ${backlinkNote}
 
-Write the article in Obsidian-flavored Markdown. Include:
+Write only markdown body content. Do NOT include YAML frontmatter, a title line, a Sources section, or code fences around the whole article.
 
-1. YAML frontmatter with title, tags (as a YAML list, one per line with "  - " prefix, NOT comma-separated), parent, and date fields.
-2. A clear definition / overview section.
-3. Key details drawn from the sources (cite as [1], [2], etc.).
-4. Where appropriate, a Mermaid diagram illustrating relationships or processes.
-5. Backlinks to related articles using [[slug|title]] syntax.
-6. A "Sources" section at the end listing the source paths.
+Use this structure:
+## Overview
+## Key Details
+## Related Concepts
 
-Do NOT wrap the output in a code block. Output the raw markdown directly.`;
+Rules:
+- Ground every substantive claim in the provided sources.
+- Prefer short paragraphs and clean bullets.
+- Use only the provided existing article slugs for backlinks, and only when the link is actually relevant.
+- If a related concept is uncertain, omit it rather than guessing.
+- Do not invent citations, bibliography entries, or extra sections.
+- Keep the article tightly focused on the concept itself, not on book metadata or source provenance.`;
 }

@@ -89,11 +89,21 @@ export async function ingestWeb(source, rawDir) {
     title = extractMarkdownTitle(content) || basename(source, extname(source));
   }
 
-  const slug = slugify(title);
+  let slug = slugify(title);
   const articlesPath = join(rawDir, 'articles');
 
   if (!existsSync(articlesPath)) {
     mkdirSync(articlesPath, { recursive: true });
+  }
+
+  // If a file with this slug already exists (duplicate title), append URL path suffix
+  if (isUrl && existsSync(join(articlesPath, `${slug}.md`))) {
+    try {
+      const urlPath = new URL(source).pathname.replace(/\//g, '-').replace(/^-+|-+$/g, '');
+      if (urlPath) slug = `${slug}-${urlPath}`;
+    } catch {
+      // keep original slug
+    }
   }
 
   const frontmatter = buildFrontmatter({ title, source, type: 'web' });

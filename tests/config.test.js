@@ -41,6 +41,23 @@ describe('config', () => {
     assert.ok(config.roles);
   });
 
+  it('loadConfig falls back between config.json and kb.config.json', async () => {
+    const { loadConfig } = await import('../src/config.js');
+    const configPath = join(tempDir, 'kb.config.json');
+    writeFileSync(configPath, JSON.stringify({
+      defaultProvider: 'ollama',
+      providers: {
+        ollama: { model: 'gemma4-26b-q4:latest', baseUrl: 'http://localhost:11434' }
+      },
+      roles: { compile: 'ollama' }
+    }));
+
+    const config = loadConfig(join(tempDir, 'config.json'));
+    assert.equal(config.defaultProvider, 'ollama');
+    assert.equal(config.providers.ollama.model, 'gemma4-26b-q4:latest');
+    assert.equal(config.roles.compile, 'ollama');
+  });
+
   it('saveConfig writes config to disk', async () => {
     const { saveConfig, loadConfig } = await import('../src/config.js');
     const configPath = join(tempDir, 'kb.config.json');

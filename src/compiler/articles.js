@@ -15,6 +15,105 @@ function slugify(name) {
     .replace(/^-|-$/g, '');
 }
 
+function escapeYamlString(value) {
+  return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+}
+
+export function buildFrontmatter(concept) {
+  const today = new Date().toISOString().slice(0, 10);
+  const tags = [slugify(concept.name)];
+  if (concept.parent) {
+    tags.push(slugify(concept.parent));
+  }
+
+  return [
+    '---',
+    `title: "${escapeYamlString(concept.name)}"`,
+    `tags: [${tags.map((tag) => `"${escapeYamlString(tag)}"`).join(', ')}]`,
+    `parent: "${escapeYamlString(concept.parent || '')}"`,
+    `date: "${today}"`,
+    '---',
+    '',
+  ].join('\n');
+}
+
+function stripOuterCodeFence(text) {
+  const trimmed = text.trim();
+  const fenceMatch = trimmed.match(/^```(?:markdown|md|text)?\s*\n([\s\S]*?)\n```$/i);
+  if (fenceMatch) {
+    return fenceMatch[1].trim();
+  }
+  return trimmed;
+}
+
+function stripLeadingFencedBlock(text) {
+  const fenceMatch = text.match(/^```[^\n]*\n([\s\S]*?)\n```\n?/);
+  if (!fenceMatch) {
+    return text;
+  }
+
+  const inner = fenceMatch[1].trim();
+  const looksLikeFrontmatter = inner.startsWith('---\n') || /^(\w+):/m.test(inner);
+  if (looksLikeFrontmatter) {
+    return text.slice(fenceMatch[0].length).trim();
+  }
+
+  return text;
+}
+
+function stripLeadingFrontmatter(text) {
+  if (!text.startsWith('---\n')) {
+    return text;
+  }
+
+  const frontmatterMatch = text.match(/^---\n[\s\S]*?\n---\n?/);
+  if (!frontmatterMatch) {
+    return text;
+  }
+
+  return text.slice(frontmatterMatch[0].length).trim();
+}
+
+function normalizeWikilinks(text, existingArticles) {
+  const existing = new Set(existingArticles);
+
+  return text.replace(/\[\[([^|\]]+?)(?:\|([^\]]+))?\]\]/g, (_, target, label) => {
+    const rawTarget = target.trim();
+    const display = (label || rawTarget).trim();
+
+    if (existing.has(rawTarget)) {
+      return `[[${rawTarget}|${display}]]`;
+    }
+
+    const normalized = slugify(rawTarget);
+    if (existing.has(normalized)) {
+      return `[[${normalized}|${display}]]`;
+    }
+
+    return display;
+  });
+}
+
+/**
+ * Normalize raw LLM article output into clean Obsidian markdown.
+ *
+ * @param {string} response
+ * @param {string[]} existingArticles
+ * @returns {string}
+ */
+export function normalizeArticleMarkdown(response, existingArticles) {
+  let text = stripOuterCodeFence(response);
+  text = stripLeadingFencedBlock(text);
+  text = stripLeadingFrontmatter(text);
+  text = text.replace(/^[ \t]*```[a-zA-Z0-9_-]*\s*$/gm, '');
+  text = text.replace(/^[ \t]*```\s*$/gm, '');
+  text = text.replace(/^#\s+.*\n+/, '');
+  text = text.replace(/^\s*---\s*$/gm, '');
+  text = normalizeWikilinks(text, existingArticles);
+  text = text.replace(/\n{3,}/g, '\n\n').trim();
+  return text;
+}
+
 /**
  * Generate concept articles using an LLM and write them to articles/.
  *
@@ -46,7 +145,7 @@ export async function generateArticles(concepts, summaries, topicPath, llmProvid
     );
 
     // Fall back to all sources if none match directly
-    const sources = relevantSources.length > 0 ? relevantSources : summaries;
+    const sources = (relevantSources.length > 0 ? relevantSources : summaries).slice(0, 5);
 
     const prompt = articlePrompt(
       concept,
@@ -55,10 +154,12 @@ export async function generateArticles(concepts, summaries, topicPath, llmProvid
     );
 
     const response = await llmProvider.complete(prompt);
+    const body = normalizeArticleMarkdown(response, existingArticles);
+    const article = buildFrontmatter(concept) + body + '\n';
 
     const slug = slugify(concept.name);
     const filePath = join(articlesPath, `${slug}.md`);
-    writeFileSync(filePath, response, 'utf-8');
+    writeFileSync(filePath, article, 'utf-8');
 
     existingArticles.push(slug);
     results.push({ name: concept.name, path: `articles/${slug}.md` });

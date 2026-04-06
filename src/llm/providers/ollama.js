@@ -26,6 +26,10 @@ export class OllamaProvider extends LLMProvider {
       prompt,
       stream: false,
       keep_alive: opts.keepAlive || '30m',
+      options: {
+        num_predict: opts.maxTokens ?? -1,
+        num_ctx: opts.numCtx ?? 32768,
+      },
     };
 
     if (opts.system) {
