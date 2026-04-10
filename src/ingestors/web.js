@@ -13,21 +13,57 @@ function slugify(text) {
 }
 
 /**
- * Strip HTML tags and decode common entities to get plain text.
+ * Decode common HTML entities to plain text.
  */
-function stripHtml(html) {
-  return html
-    .replace(/<script[\s\S]*?<\/script>/gi, '')
-    .replace(/<style[\s\S]*?<\/style>/gi, '')
-    .replace(/<[^>]+>/g, '')
+function decodeEntities(text) {
+  return text
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
+    .replace(/&#x27;/g, "'")
     .replace(/&#39;/g, "'")
     .replace(/&nbsp;/g, ' ')
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCharCode(parseInt(hex, 16)));
+}
+
+/**
+ * Strip HTML tags and decode common entities to get plain text.
+ */
+function stripHtml(html) {
+  return decodeEntities(
+    html
+      .replace(/<script[\s\S]*?<\/script>/gi, '')
+      .replace(/<style[\s\S]*?<\/style>/gi, '')
+      .replace(/<[^>]+>/g, ' ')
+  )
+    .replace(/[ \t]+/g, ' ')
+    .replace(/^ +$/gm, '')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
+}
+
+/**
+ * Try to extract the main article content from known content containers.
+ * Falls back to the full page if nothing useful is found.
+ */
+function extractMainContent(html) {
+  const containers = [
+    /<article[^>]*>([\s\S]*?)<\/article>/i,
+    /<div[^>]+class="[^"]*body[^"]*"[^>]*>([\s\S]*?)<\/div>/i,
+    /<div[^>]+class="[^"]*post-content[^"]*"[^>]*>([\s\S]*?)<\/div>/i,
+    /<div[^>]+class="[^"]*entry-content[^"]*"[^>]*>([\s\S]*?)<\/div>/i,
+    /<main[^>]*>([\s\S]*?)<\/main>/i,
+  ];
+  for (const re of containers) {
+    const match = html.match(re);
+    if (match) {
+      const text = stripHtml(match[1]);
+      if (text.length > 200) return text;
+    }
+  }
+  return stripHtml(html);
 }
 
 /**
@@ -35,7 +71,7 @@ function stripHtml(html) {
  */
 function extractHtmlTitle(html) {
   const match = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
-  return match ? match[1].trim() : null;
+  return match ? decodeEntities(match[1].trim()) : null;
 }
 
 /**
@@ -82,7 +118,7 @@ export async function ingestWeb(source, rawDir) {
     }
     const html = await res.text();
     title = extractHtmlTitle(html) || 'Untitled';
-    content = stripHtml(html);
+    content = extractMainContent(html);
   } else {
     // Local file
     content = readFileSync(source, 'utf-8');
